@@ -1,0 +1,25 @@
+{
+  "financial_entities": {
+    "MONEY": ["revenue", "profit", "loss", "earnings", "income"],
+    "METRIC": ["EBITDA", "EPS", "ROE", "ROI", "margin", "ratio"],
+    "PERIOD": ["Q1", "Q2", "Q3", "Q4", "FY", "fiscal year", "quarter"],
+    "PERCENTAGE": ["growth", "increase", "decrease", "change"]
+  },
+  
+  "patterns": {
+    "revenue": "revenue\s*(?:of|was|is)?\s*\$?[\d,]+\.?\d*[MBK]?",
+    "profit": "(?:net\s+)?profit\s*(?:of|was|is)?\s*\$?[\d,]+\.?\d*[MBK]?",
+    "eps": "EPS\s*(?:of|was|is)?\s*\$?[\d.]+",
+    "percentage_change": "(increased|decreased|rose|fell|grew)\s*(?:by\s*)?[\d.]+%"
+  },
+  
+  "risk_keywords": [
+    "risk", "uncertainty", "challenge", "decline", "loss", 
+    "volatility", "adverse", "litigation", "regulatory"
+  ],
+  
+  "positive_keywords": [
+    "growth", "profit", "increase", "strong", "exceed", 
+    "outperform", "success", "innovation", "expansion"
+  ]
+}

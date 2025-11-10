@@ -1,0 +1,23 @@
+# Pipeline Configuration
+preprocessing:
+  remove_stopwords: false
+  lemmatize: true
+  lowercase: true
+  remove_numbers: false
+  min_word_length: 2
+
+extraction:
+  confidence_threshold: 0.7
+  max_entities: 100
+  extract_tables: true
+  extract_figures: true
+
+analysis:
+  sentiment_threshold: 0.6
+  trend_window: 4  # quarters
+  risk_keywords_weight: 1.5
+
+output:
+  format: "json"
+  include_raw_text: false
+  include_embeddings: false

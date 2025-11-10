@@ -1,0 +1,66 @@
+# Virtual Environments (Local and commonly nested)
+.venv/
+venv/
+env/
+venv_py3/
+# Specific folder names from your project structure (if applicable)
+/venv/
+
+# ----------------- Bytecode and Logs -----------------
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+
+# ----------------- Builds and Packaging -----------------
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+eggs/
+*.egg-info/
+sdist/
+wheelhouse/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-file.txt
+pip-wheel-*.log
+
+# ----------------- Testing, Cache, and Tools -----------------
+# Testing and Coverage
+.coverage
+.tox/
+.pytest_cache/
+htmlcov/
+.hypothesis/
+
+# Type Checking and Linting Caches
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter Notebook files
+.ipynb_checkpoints
+
+# Large Data & Model Files (Crucial for Machine Learning/RL projects)
+**/data/models/              # <-- IGNORES THE 'DATA' FOLDER
+*.pt               # PyTorch model checkpoints
+*.pth
+*.safetensors
+*.onnx
+
+# ----------------- IDE and OS Files -----------------
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# IDE/Editor Files
+# JetBrains (PyCharm, Rider)
+.idea/
+# VS Code
+.vscode/
+# Temporary/Swap Files
+*.swp
+*~

@@ -1,0 +1,33 @@
+# Model Configuration
+models:
+  ner:
+    name: "dslim/bert-base-NER"
+    cache_dir: "data/models/ner"
+    device: "cpu"  # Change to "cuda" if GPU available
+  
+  sentiment:
+    name: "ProsusAI/finbert"
+    cache_dir: "data/models/sentiment"
+    device: "cpu"
+  
+  qa:
+    name: "deepset/roberta-base-squad2"
+    cache_dir: "data/models/qa"
+    device: "cpu"
+  
+  summarization:
+    name: "facebook/bart-large-cnn"
+    cache_dir: "data/models/summarization"
+    device: "cpu"
+  
+  embeddings:
+    name: "sentence-transformers/all-MiniLM-L6-v2"
+    cache_dir: "data/models/embeddings"
+    device: "cpu"
+
+# Model parameters
+parameters:
+  max_length: 512
+  batch_size: 8
+  num_beams: 4
+  temperature: 0.7
