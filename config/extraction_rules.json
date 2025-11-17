@@ -7,10 +7,10 @@
   },
   
   "patterns": {
-    "revenue": "revenue\s*(?:of|was|is)?\s*\$?[\d,]+\.?\d*[MBK]?",
-    "profit": "(?:net\s+)?profit\s*(?:of|was|is)?\s*\$?[\d,]+\.?\d*[MBK]?",
-    "eps": "EPS\s*(?:of|was|is)?\s*\$?[\d.]+",
-    "percentage_change": "(increased|decreased|rose|fell|grew)\s*(?:by\s*)?[\d.]+%"
+    "revenue": "revenue\\s*(?:of|was|is)?\\s*\\$?[\\d,]+\\.?\\d*[MBK]?",
+    "profit": "(?:net\\s+)?profit\\s*(?:of|was|is)?\\s*\\$?[\\d,]+\\.?\\d*[MBK]?",
+    "eps": "EPS\\s*(?:of|was|is)?\\s*\\$?[\\d.]+",
+    "percentage_change": "(increased|decreased|rose|fell|grew)\\s*(?:by\\s*)?[\\d.]+%"
   },
   
   "risk_keywords": [
