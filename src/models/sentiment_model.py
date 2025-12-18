@@ -7,7 +7,14 @@ from typing import List, Dict, Optional, Tuple
 from collections import Counter
 import numpy as np
 
-from model_loader import ModelLoader
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).parent.parent))
+try:
+    from models.model_loader import ModelLoader
+except ImportError:
+    from src.models.model_loader import ModelLoader
 
 
 class FinancialSentiment:

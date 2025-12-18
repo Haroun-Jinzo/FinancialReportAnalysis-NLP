@@ -6,7 +6,7 @@ Generate summaries of financial documents using BART
 from typing import List, Dict, Optional
 import re
 
-from model_loader import ModelLoader
+from .model_loader import ModelLoader
 
 
 class FinancialSummarizer:

@@ -6,7 +6,7 @@ Answer questions about financial documents using RoBERTa
 from typing import List, Dict, Optional, Tuple
 import re
 
-from model_loader import ModelLoader
+from .model_loader import ModelLoader
 
 
 class FinancialQA:
