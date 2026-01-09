@@ -1,3 +1,4 @@
+from typing import List
 import numpy as np
 import json
 import logging
@@ -18,9 +19,9 @@ from sklearn.metrics import (
 
 logger = logging.getLogger(__name__)
 
-def compute_metrics(self, eval_predictions):
+def compute_metrics(eval_pred):
 
-    predictions, labels = eval_predictions
+    predictions, labels = eval_pred
     predictions = np.argmax(predictions, axis=1)
     return {
         'accuracy': accuracy_score(labels, predictions),
@@ -29,6 +30,7 @@ def compute_metrics(self, eval_predictions):
         'precision': precision_score(labels, predictions, average='weighted', zero_division=0),
         'recall': recall_score(labels, predictions, average='weighted', zero_division=0),
     }
+
 
 class LoggingCallback:
 

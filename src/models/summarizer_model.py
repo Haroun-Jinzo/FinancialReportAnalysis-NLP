@@ -1,8 +1,3 @@
-"""
-Text Summarization Module
-Generate summaries of financial documents using BART
-"""
-
 from typing import List, Dict, Optional
 import re
 
@@ -10,11 +5,7 @@ from .model_loader import ModelLoader
 
 
 class FinancialSummarizer:
-    """
-    Abstractive summarization for financial documents
-    Uses BART (Bidirectional and Auto-Regressive Transformers)
-    """
-    
+
     def __init__(self):
         """Initialize summarizer"""
         print("Initializing Financial Summarizer...")
@@ -38,18 +29,7 @@ class FinancialSummarizer:
                  summary_type: str = 'balanced',
                  max_length: Optional[int] = None,
                  min_length: Optional[int] = None) -> Dict:
-        """
-        Generate summary of text
-        
-        Args:
-            text: Input text to summarize
-            summary_type: 'short', 'balanced', or 'detailed'
-            max_length: Maximum summary length (overrides type)
-            min_length: Minimum summary length (overrides type)
-            
-        Returns:
-            Dictionary with summary and metadata
-        """
+
         if not text or len(text.strip()) < 100:
             return {
                 'summary': text,

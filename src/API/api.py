@@ -50,9 +50,21 @@ class AnalysisRequest(BaseModel):
     document_ids: List[str]
     metrics: Optional[List[str]] = None
 
+
+class RiskAnalysisRequest(BaseModel):
+    document_id: str
+    detailed: bool = False
+
+class ComprehensiveRequest(BaseModel):
+    document_ids: List[str]
+
 class MetricsRequest(BaseModel):
     document_id: str
     metric_name: Optional[str] = None
+class CompareRequest(BaseModel):
+    doc_id_1: str
+    doc_id_2: str
+    analysis_type: Optional[str] = "comprehensive"
 
 # ==================== ENDPOINTS ====================
 
@@ -158,11 +170,11 @@ def query_documents(request: QueryRequest):
         raise HTTPException(status_code=500, detail=str(e))
 
 @app.post("/api/analyze/comprehensive")
-def comprehensive_analysis(document_ids: List[str]):
+def comprehensive_analysis(request: ComprehensiveRequest):
     try:
         # Get documents
         documents = []
-        for doc_id in document_ids:
+        for doc_id in request.document_ids:
             doc = document_agent.get_document(doc_id)
             if doc and doc.status == "completed":
                 documents.append({
@@ -217,10 +229,10 @@ def analyze_trends(request: AnalysisRequest):
         raise HTTPException(status_code=500, detail=str(e))
 
 @app.post("/api/analyze/compare")
-def compare_documents(doc_id_1: str, doc_id_2: str, analysis_type: str = "comprehensive"):
+def compare_documents(request: CompareRequest):
     try:
-        doc1 = document_agent.get_document(doc_id_1)
-        doc2 = document_agent.get_document(doc_id_2)
+        doc1 = document_agent.get_document(request.doc_id_1)
+        doc2 = document_agent.get_document(request.doc_id_2)
         
         if not doc1 or not doc2:
             raise HTTPException(status_code=404, detail="Document not found")
@@ -237,7 +249,7 @@ def compare_documents(doc_id_1: str, doc_id_2: str, analysis_type: str = "compre
             'period': doc2.metadata.get('period')
         }
         
-        results = analysis_agent.compare_documents(doc1_data, doc2_data, analysis_type)
+        results = analysis_agent.compare_documents(doc1_data, doc2_data, 'comprehensive')
         
         return {"success": True, "comparison": results}
         
@@ -248,17 +260,17 @@ def compare_documents(doc_id_1: str, doc_id_2: str, analysis_type: str = "compre
         raise HTTPException(status_code=500, detail=str(e))
 
 @app.post("/api/analyze/risks")
-def analyze_risks(document_id: str, detailed: bool = True):
+def analyze_risks(request: RiskAnalysisRequest):
     try:
-        doc = document_agent.get_document(document_id)
+        doc = document_agent.get_document(request.document_id)
         if not doc:
             raise HTTPException(status_code=404, detail="Document not found")
         
-        results = analysis_agent.analyze_risks(doc.text, detailed)
+        results = analysis_agent.analyze_risks(doc.text, request.detailed)
         
         return {
             "success": True,
-            "document_id": document_id,
+            "document_id": request.document_id,
             "risks": results
         }
         

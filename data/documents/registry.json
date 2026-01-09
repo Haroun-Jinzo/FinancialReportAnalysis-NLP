@@ -1,0 +1,4358 @@
+[
+  {
+    "id": "doc_20260104_183210_8416",
+    "filename": "tmptt3e8_4b.pdf",
+    "path": "C:\\Users\\Jinzo\\AppData\\Local\\Temp\\tmptt3e8_4b.pdf",
+    "status": "completed",
+    "uploaded_at": "2026-01-04T18:32:10.963156",
+    "processed_at": "2026-01-04T18:32:14.355051",
+    "metadata": {
+      "title": "Sample-Accounting-Income-Statement-PDF-File.pdf",
+      "period": null,
+      "company": null,
+      "filename": "file-1767547930890-138788495.pdf"
+    },
+    "keywords": [
+      "aofseptember30th",
+      "reconciledbalanceonseptember30th",
+      "abc",
+      "expense",
+      "equipment",
+      "inventoryequipment",
+      "archeryequip",
+      "liability",
+      "sign",
+      "productorservicereceivedbutnotyetpaid",
+      "installmentpaymentonequipment",
+      "product",
+      "andservicearenormallypaidatthetimeofpurchaseordelivery",
+      "regardlessofvalue",
+      "includethedateacquiredorpurchased",
+      "thevalue",
+      "purchasepriceoracquiredvalue",
+      "itemdescription",
+      "includetheserialnumber",
+      "ifapplicable"
+    ],
+    "entities": [
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "abc",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "abc",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "income",
+        "type": "METRIC",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "abc",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "$1,",
+        "type": "MONEY",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "$1,",
+        "type": "MONEY",
+        "confidence": 1.0
+      }
+    ]
+  },
+  {
+    "id": "doc_20260104_183217_5432",
+    "filename": "tmpp8uv7i93.pdf",
+    "path": "C:\\Users\\Jinzo\\AppData\\Local\\Temp\\tmpp8uv7i93.pdf",
+    "status": "completed",
+    "uploaded_at": "2026-01-04T18:32:17.347368",
+    "processed_at": "2026-01-04T18:32:39.547824",
+    "metadata": {
+      "title": "Sample-review-financials.pdf",
+      "period": null,
+      "company": null,
+      "filename": "file-1767547937300-480308597.pdf"
+    },
+    "keywords": [
+      "inmillion",
+      "aapl",
+      "reputation",
+      "net",
+      "september30",
+      "loss",
+      "dollarinmillion",
+      "use",
+      "endingbalance",
+      "aofseptember28",
+      "quarter",
+      "personalcomputer",
+      "tablet",
+      "wholesaler",
+      "respectively",
+      "resultofoperation",
+      "amongotherthing",
+      "thecompany",
+      "september24",
+      "plantandequipment"
+    ],
+    "entities": [
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "nov3rd,__number_2__number___number_4__number_9__number___number_1__number_2439____69________number___number_24__number_2465__________6__number___number_2738__3__kb__number_2__number___number_1__number___number_1919__3__5______apple(aapl)__number_2__number_4__number___number_1__number_1979____67______-kannualreport-oct__number___number_497__8__th,__number___number___number_1__number___number_1__number_2209____4____7____number_36__number_4__number_589________704kb__number___number_2__number_2709__2__2__apple(aapl)__number_2__number_5__number_587______-kannualreport-oct__number_6__number_8__number_844______th,__number___number_1509______number_1466__8kb__number_2__number___number_532______apple(aapl)__number___number_2194__6__-kannualreport-oct__number___number_8__number_842____7__th,__number_237__7__number_2__number_7__number_860______kb__number_238__apple(aapl)__number_2__number_5__number_897______-kannualreport-oct__number___number_1__number_1__number_2323______4__st,__number___number_643__0____number___number_3574____kb__number_2__number_7__number_8__number_8__number_974__________apple(aapl)__number___number_946__5__-kannualreport-nov5th,__number___number___number_1349__3__3____number_1487__kb__number___number___number___number_1459__8__5__4__apple(aapl)__number___number_972__9__-kannualreport",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "nov5th,__number_2__number_1__number_1720______5__number___number___number_13__number_3025____6__4__kb__number_2__number___number_3492__17____apple(aapl)__number___number_427__2__-kannualreport",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "d",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "d",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "california__number_3__number___number_697______(addressofprincipalexecutiveoffice)(zipcode)(__number_3__number_389____)__number_3__number_3__number___number___number_3266____number_3541__________-__number_3__number___number___number_1363__5______(registranttelephonenumber",
+        "type": "DATE",
+        "confidence": 1.0
+      },
+      {
+        "text": "includingareacode)securityregisteredpursuanttosection__number___number___number_3280__17____(b)oftheacttitleofeachclasstradingsymbol(s)nameofeachexchangeonwhichregisteredcommonstock,__money_0__parvaluepershareaaplthenasdaqstockmarketllc__percentage_86__notedue__number_3__number_348____thenasdaqstockmarketllc__percentage_87__notedue__number_3__number_399____thenasdaqstockmarketllc__percentage_88__notedue__number_3__number___number_1__number_1637__1______thenasdaqstockmarketllc__percentage_89__notedue__number_3__number___number_1784______thenasdaqstockmarketllc__percentage_90__notedue__number___number___number_2378____number_1__number___number_20__number_2__number_2325______5______9__thenasdaqstockmarketllc__percentage___number_1800____notedue__number_3__number_564____thenasdaqstockmarketllc__percentage_92__notedue__number_3__number_377____thenasdaqstockmarketllc__percentage___number_1__number_2442______notedue__number___number___number___number_1557__1______thenasdaqstockmarketllcsecurityregisteredpursuanttosection__number_3__number___number_3284__71____(g)oftheactnoneindicatebycheckmarkiftheregistrantisawell",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "d",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "d",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "k",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "andreferencetoparticularyear,quarter",
+        "type": "DATE",
+        "confidence": 1.0
+      },
+      {
+        "text": "agamesubscriptionserviceapplefitnesssm",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "aco-brandedcreditcard",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "acashlesspaymentservice.segmentthecompanymanagesitbusinessprimarilyonageographicbasis.thecompanyreportablesegmentconsistoftheamerica",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "europe",
+        "type": "LOC",
+        "confidence": 1.0
+      },
+      {
+        "text": "greaterchina",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "japanandrestofasiapacific.americaincludesbothnorthandsouthamerica.europeincludeseuropeancountry",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "astrongthird",
+        "type": "NORP",
+        "confidence": 1.0
+      },
+      {
+        "text": "maybeaffectedifsupplierdecidetoconcentrateontheproductionofcommoncomponentinsteadofcomponentcustomizedtomeetthecompanyrequirement.thecompanyhaenteredintoagreementforthesupplyofmanycomponenthowever",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "rd",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "d",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "arelocatedoutsidetheu.s.aaresult",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "india",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "japan",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "southkorea",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "canmateriallyadverselyaffectthecompanybusinessandsupplychain.theimpactcanbeparticularlysignificantiftheserestrictivemeasureapplytocountryandregionwherethecompanyderivesasignificantportionofitrevenueandorhasignificantsupplychainoperation.restrictivemeasurecanincreasethecostofthecompanyproductandthecomponentandrawmaterialthatgointothem",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "suchinsurancecoveragemaybeinsufficienttocoveralllossthatmayarise.globalmarketforthecompanyproductandservicearehighlycompetitiveandsubjecttorapidtechnologicalchange",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "numeroussoftwareapplicationandrelatedservice.aaresult",
+        "type": "ORG",
+        "confidence": 1.0
+      }
+    ]
+  },
+  {
+    "id": "doc_20260108_120613_5989",
+    "filename": "tmp1zakgzz_.pdf",
+    "path": "C:\\Users\\Jinzo\\AppData\\Local\\Temp\\tmp1zakgzz_.pdf",
+    "status": "completed",
+    "uploaded_at": "2026-01-08T12:06:13.143451",
+    "processed_at": "2026-01-08T12:06:30.615582",
+    "metadata": {
+      "title": "Sample-Accounting-Income-Statement-PDF-File.pdf",
+      "period": "Q1 2024",
+      "company": "apple",
+      "filename": "file-1767870372952-100553181.pdf"
+    },
+    "keywords": [
+      "aofseptember30th",
+      "reconciledbalanceonseptember30th",
+      "abc",
+      "expense",
+      "equipment",
+      "inventoryequipment",
+      "archeryequip",
+      "liability",
+      "sign",
+      "productorservicereceivedbutnotyetpaid",
+      "installmentpaymentonequipment",
+      "product",
+      "andservicearenormallypaidatthetimeofpurchaseordelivery",
+      "regardlessofvalue",
+      "includethedateacquiredorpurchased",
+      "thevalue",
+      "purchasepriceoracquiredvalue",
+      "itemdescription",
+      "includetheserialnumber",
+      "ifapplicable"
+    ],
+    "entities": [
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "abc",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "abc",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "income",
+        "type": "METRIC",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "abc",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "$1,",
+        "type": "MONEY",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "$1,",
+        "type": "MONEY",
+        "confidence": 1.0
+      }
+    ]
+  },
+  {
+    "id": "doc_20260108_120734_6060",
+    "filename": "tmpjc4cxoiw.pdf",
+    "path": "C:\\Users\\Jinzo\\AppData\\Local\\Temp\\tmpjc4cxoiw.pdf",
+    "status": "completed",
+    "uploaded_at": "2026-01-08T12:07:34.649191",
+    "processed_at": "2026-01-08T12:10:09.197872",
+    "metadata": {
+      "title": "Sample-review-financials.pdf",
+      "period": null,
+      "company": null,
+      "filename": "file-1767870454583-350331083.pdf"
+    },
+    "keywords": [
+      "inmillion",
+      "aapl",
+      "reputation",
+      "net",
+      "september30",
+      "loss",
+      "dollarinmillion",
+      "use",
+      "endingbalance",
+      "aofseptember28",
+      "quarter",
+      "personalcomputer",
+      "tablet",
+      "wholesaler",
+      "respectively",
+      "resultofoperation",
+      "amongotherthing",
+      "thecompany",
+      "september24",
+      "plantandequipment"
+    ],
+    "entities": [
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "nov3rd,__number_2__number___number_4__number_9__number___number_1__number_2439____69________number___number_24__number_2465__________6__number___number_2738__3__kb__number_2__number___number_1__number___number_1919__3__5______apple(aapl)__number_2__number_4__number___number_1__number_1979____67______-kannualreport-oct__number___number_497__8__th,__number___number___number_1__number___number_1__number_2209____4____7____number_36__number_4__number_589________704kb__number___number_2__number_2709__2__2__apple(aapl)__number_2__number_5__number_587______-kannualreport-oct__number_6__number_8__number_844______th,__number___number_1509______number_1466__8kb__number_2__number___number_532______apple(aapl)__number___number_2194__6__-kannualreport-oct__number___number_8__number_842____7__th,__number_237__7__number_2__number_7__number_860______kb__number_238__apple(aapl)__number_2__number_5__number_897______-kannualreport-oct__number___number_1__number_1__number_2323______4__st,__number___number_643__0____number___number_3574____kb__number_2__number_7__number_8__number_8__number_974__________apple(aapl)__number___number_946__5__-kannualreport-nov5th,__number___number___number_1349__3__3____number_1487__kb__number___number___number___number_1459__8__5__4__apple(aapl)__number___number_972__9__-kannualreport",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "nov5th,__number_2__number_1__number_1720______5__number___number___number_13__number_3025____6__4__kb__number_2__number___number_3492__17____apple(aapl)__number___number_427__2__-kannualreport",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "d",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "d",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "california__number_3__number___number_697______(addressofprincipalexecutiveoffice)(zipcode)(__number_3__number_389____)__number_3__number_3__number___number___number_3266____number_3541__________-__number_3__number___number___number_1363__5______(registranttelephonenumber",
+        "type": "DATE",
+        "confidence": 1.0
+      },
+      {
+        "text": "includingareacode)securityregisteredpursuanttosection__number___number___number_3280__17____(b)oftheacttitleofeachclasstradingsymbol(s)nameofeachexchangeonwhichregisteredcommonstock,__money_0__parvaluepershareaaplthenasdaqstockmarketllc__percentage_86__notedue__number_3__number_348____thenasdaqstockmarketllc__percentage_87__notedue__number_3__number_399____thenasdaqstockmarketllc__percentage_88__notedue__number_3__number___number_1__number_1637__1______thenasdaqstockmarketllc__percentage_89__notedue__number_3__number___number_1784______thenasdaqstockmarketllc__percentage_90__notedue__number___number___number_2378____number_1__number___number_20__number_2__number_2325______5______9__thenasdaqstockmarketllc__percentage___number_1800____notedue__number_3__number_564____thenasdaqstockmarketllc__percentage_92__notedue__number_3__number_377____thenasdaqstockmarketllc__percentage___number_1__number_2442______notedue__number___number___number___number_1557__1______thenasdaqstockmarketllcsecurityregisteredpursuanttosection__number_3__number___number_3284__71____(g)oftheactnoneindicatebycheckmarkiftheregistrantisawell",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "d",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "d",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "k",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "andreferencetoparticularyear,quarter",
+        "type": "DATE",
+        "confidence": 1.0
+      },
+      {
+        "text": "agamesubscriptionserviceapplefitnesssm",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "aco-brandedcreditcard",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "acashlesspaymentservice.segmentthecompanymanagesitbusinessprimarilyonageographicbasis.thecompanyreportablesegmentconsistoftheamerica",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "europe",
+        "type": "LOC",
+        "confidence": 1.0
+      },
+      {
+        "text": "greaterchina",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "japanandrestofasiapacific.americaincludesbothnorthandsouthamerica.europeincludeseuropeancountry",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "astrongthird",
+        "type": "NORP",
+        "confidence": 1.0
+      },
+      {
+        "text": "maybeaffectedifsupplierdecidetoconcentrateontheproductionofcommoncomponentinsteadofcomponentcustomizedtomeetthecompanyrequirement.thecompanyhaenteredintoagreementforthesupplyofmanycomponenthowever",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "rd",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "d",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "arelocatedoutsidetheu.s.aaresult",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "india",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "japan",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "southkorea",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "canmateriallyadverselyaffectthecompanybusinessandsupplychain.theimpactcanbeparticularlysignificantiftheserestrictivemeasureapplytocountryandregionwherethecompanyderivesasignificantportionofitrevenueandorhasignificantsupplychainoperation.restrictivemeasurecanincreasethecostofthecompanyproductandthecomponentandrawmaterialthatgointothem",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "suchinsurancecoveragemaybeinsufficienttocoveralllossthatmayarise.globalmarketforthecompanyproductandservicearehighlycompetitiveandsubjecttorapidtechnologicalchange",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "numeroussoftwareapplicationandrelatedservice.aaresult",
+        "type": "ORG",
+        "confidence": 1.0
+      }
+    ]
+  },
+  {
+    "id": "doc_20260108_121009_3222",
+    "filename": "tmpf06d2lss.pdf",
+    "path": "C:\\Users\\Jinzo\\AppData\\Local\\Temp\\tmpf06d2lss.pdf",
+    "status": "completed",
+    "uploaded_at": "2026-01-08T12:10:09.362126",
+    "processed_at": "2026-01-08T12:12:20.502082",
+    "metadata": {
+      "title": "Sample-review-financials.pdf",
+      "period": "Q2025",
+      "company": "microsoft",
+      "filename": "file-1767870551137-316887983.pdf"
+    },
+    "keywords": [
+      "inmillion",
+      "aapl",
+      "reputation",
+      "net",
+      "september30",
+      "loss",
+      "dollarinmillion",
+      "use",
+      "endingbalance",
+      "aofseptember28",
+      "quarter",
+      "personalcomputer",
+      "tablet",
+      "wholesaler",
+      "respectively",
+      "resultofoperation",
+      "amongotherthing",
+      "thecompany",
+      "september24",
+      "plantandequipment"
+    ],
+    "entities": [
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "nov3rd,__number_2__number___number_4__number_9__number___number_1__number_2439____69________number___number_24__number_2465__________6__number___number_2738__3__kb__number_2__number___number_1__number___number_1919__3__5______apple(aapl)__number_2__number_4__number___number_1__number_1979____67______-kannualreport-oct__number___number_497__8__th,__number___number___number_1__number___number_1__number_2209____4____7____number_36__number_4__number_589________704kb__number___number_2__number_2709__2__2__apple(aapl)__number_2__number_5__number_587______-kannualreport-oct__number_6__number_8__number_844______th,__number___number_1509______number_1466__8kb__number_2__number___number_532______apple(aapl)__number___number_2194__6__-kannualreport-oct__number___number_8__number_842____7__th,__number_237__7__number_2__number_7__number_860______kb__number_238__apple(aapl)__number_2__number_5__number_897______-kannualreport-oct__number___number_1__number_1__number_2323______4__st,__number___number_643__0____number___number_3574____kb__number_2__number_7__number_8__number_8__number_974__________apple(aapl)__number___number_946__5__-kannualreport-nov5th,__number___number___number_1349__3__3____number_1487__kb__number___number___number___number_1459__8__5__4__apple(aapl)__number___number_972__9__-kannualreport",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "nov5th,__number_2__number_1__number_1720______5__number___number___number_13__number_3025____6__4__kb__number_2__number___number_3492__17____apple(aapl)__number___number_427__2__-kannualreport",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "d",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "d",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "california__number_3__number___number_697______(addressofprincipalexecutiveoffice)(zipcode)(__number_3__number_389____)__number_3__number_3__number___number___number_3266____number_3541__________-__number_3__number___number___number_1363__5______(registranttelephonenumber",
+        "type": "DATE",
+        "confidence": 1.0
+      },
+      {
+        "text": "includingareacode)securityregisteredpursuanttosection__number___number___number_3280__17____(b)oftheacttitleofeachclasstradingsymbol(s)nameofeachexchangeonwhichregisteredcommonstock,__money_0__parvaluepershareaaplthenasdaqstockmarketllc__percentage_86__notedue__number_3__number_348____thenasdaqstockmarketllc__percentage_87__notedue__number_3__number_399____thenasdaqstockmarketllc__percentage_88__notedue__number_3__number___number_1__number_1637__1______thenasdaqstockmarketllc__percentage_89__notedue__number_3__number___number_1784______thenasdaqstockmarketllc__percentage_90__notedue__number___number___number_2378____number_1__number___number_20__number_2__number_2325______5______9__thenasdaqstockmarketllc__percentage___number_1800____notedue__number_3__number_564____thenasdaqstockmarketllc__percentage_92__notedue__number_3__number_377____thenasdaqstockmarketllc__percentage___number_1__number_2442______notedue__number___number___number___number_1557__1______thenasdaqstockmarketllcsecurityregisteredpursuanttosection__number_3__number___number_3284__71____(g)oftheactnoneindicatebycheckmarkiftheregistrantisawell",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "d",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "d",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "k",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "andreferencetoparticularyear,quarter",
+        "type": "DATE",
+        "confidence": 1.0
+      },
+      {
+        "text": "agamesubscriptionserviceapplefitnesssm",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "aco-brandedcreditcard",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "acashlesspaymentservice.segmentthecompanymanagesitbusinessprimarilyonageographicbasis.thecompanyreportablesegmentconsistoftheamerica",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "europe",
+        "type": "LOC",
+        "confidence": 1.0
+      },
+      {
+        "text": "greaterchina",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "japanandrestofasiapacific.americaincludesbothnorthandsouthamerica.europeincludeseuropeancountry",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "astrongthird",
+        "type": "NORP",
+        "confidence": 1.0
+      },
+      {
+        "text": "maybeaffectedifsupplierdecidetoconcentrateontheproductionofcommoncomponentinsteadofcomponentcustomizedtomeetthecompanyrequirement.thecompanyhaenteredintoagreementforthesupplyofmanycomponenthowever",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "rd",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "d",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "arelocatedoutsidetheu.s.aaresult",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "india",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "japan",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "southkorea",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "canmateriallyadverselyaffectthecompanybusinessandsupplychain.theimpactcanbeparticularlysignificantiftheserestrictivemeasureapplytocountryandregionwherethecompanyderivesasignificantportionofitrevenueandorhasignificantsupplychainoperation.restrictivemeasurecanincreasethecostofthecompanyproductandthecomponentandrawmaterialthatgointothem",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "suchinsurancecoveragemaybeinsufficienttocoveralllossthatmayarise.globalmarketforthecompanyproductandservicearehighlycompetitiveandsubjecttorapidtechnologicalchange",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "numeroussoftwareapplicationandrelatedservice.aaresult",
+        "type": "ORG",
+        "confidence": 1.0
+      }
+    ]
+  },
+  {
+    "id": "doc_20260108_121353_770",
+    "filename": "tmp6t5sdvak.pdf",
+    "path": "C:\\Users\\Jinzo\\AppData\\Local\\Temp\\tmp6t5sdvak.pdf",
+    "status": "completed",
+    "uploaded_at": "2026-01-08T12:13:53.574820",
+    "processed_at": "2026-01-08T12:13:56.363223",
+    "metadata": {
+      "title": "Sample-Accounting-Income-Statement-PDF-File.pdf",
+      "period": "Q2 2025",
+      "company": "Apple",
+      "filename": "file-1767870833507-979377284.pdf"
+    },
+    "keywords": [
+      "aofseptember30th",
+      "reconciledbalanceonseptember30th",
+      "abc",
+      "expense",
+      "equipment",
+      "inventoryequipment",
+      "archeryequip",
+      "liability",
+      "sign",
+      "productorservicereceivedbutnotyetpaid",
+      "installmentpaymentonequipment",
+      "product",
+      "andservicearenormallypaidatthetimeofpurchaseordelivery",
+      "regardlessofvalue",
+      "includethedateacquiredorpurchased",
+      "thevalue",
+      "purchasepriceoracquiredvalue",
+      "itemdescription",
+      "includetheserialnumber",
+      "ifapplicable"
+    ],
+    "entities": [
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "abc",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "abc",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "income",
+        "type": "METRIC",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "abc",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "$1,",
+        "type": "MONEY",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "$1,",
+        "type": "MONEY",
+        "confidence": 1.0
+      }
+    ]
+  },
+  {
+    "id": "doc_20260108_123428_8453",
+    "filename": "tmpdof8r6qq.pdf",
+    "path": "C:\\Users\\Jinzo\\AppData\\Local\\Temp\\tmpdof8r6qq.pdf",
+    "status": "completed",
+    "uploaded_at": "2026-01-08T12:34:28.654362",
+    "processed_at": "2026-01-08T12:34:31.476274",
+    "metadata": {
+      "title": "Sample-Accounting-Income-Statement-PDF-File.pdf",
+      "period": "Q1 2024",
+      "company": "Apple",
+      "filename": "file-1767872068584-960562235.pdf"
+    },
+    "keywords": [
+      "aofseptember30th",
+      "reconciledbalanceonseptember30th",
+      "abc",
+      "expense",
+      "equipment",
+      "inventoryequipment",
+      "archeryequip",
+      "liability",
+      "sign",
+      "productorservicereceivedbutnotyetpaid",
+      "installmentpaymentonequipment",
+      "product",
+      "andservicearenormallypaidatthetimeofpurchaseordelivery",
+      "regardlessofvalue",
+      "includethedateacquiredorpurchased",
+      "thevalue",
+      "purchasepriceoracquiredvalue",
+      "itemdescription",
+      "includetheserialnumber",
+      "ifapplicable"
+    ],
+    "entities": [
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "abc",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "abc",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "income",
+        "type": "METRIC",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "abc",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "$1,",
+        "type": "MONEY",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "$1,",
+        "type": "MONEY",
+        "confidence": 1.0
+      }
+    ]
+  },
+  {
+    "id": "doc_20260108_124326_8077",
+    "filename": "tmp03z6n31p.pdf",
+    "path": "C:\\Users\\Jinzo\\AppData\\Local\\Temp\\tmp03z6n31p.pdf",
+    "status": "completed",
+    "uploaded_at": "2026-01-08T12:43:26.101736",
+    "processed_at": "2026-01-08T12:43:51.623663",
+    "metadata": {
+      "title": "Sample-review-financials.pdf",
+      "period": "Q2 2023",
+      "company": "Microsoft",
+      "filename": "file-1767872606036-947174455.pdf"
+    },
+    "keywords": [
+      "inmillion",
+      "aapl",
+      "reputation",
+      "net",
+      "september30",
+      "loss",
+      "dollarinmillion",
+      "use",
+      "endingbalance",
+      "aofseptember28",
+      "quarter",
+      "personalcomputer",
+      "tablet",
+      "wholesaler",
+      "respectively",
+      "resultofoperation",
+      "amongotherthing",
+      "thecompany",
+      "september24",
+      "plantandequipment"
+    ],
+    "entities": [
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "nov3rd,__number_2__number___number_4__number_9__number___number_1__number_2439____69________number___number_24__number_2465__________6__number___number_2738__3__kb__number_2__number___number_1__number___number_1919__3__5______apple(aapl)__number_2__number_4__number___number_1__number_1979____67______-kannualreport-oct__number___number_497__8__th,__number___number___number_1__number___number_1__number_2209____4____7____number_36__number_4__number_589________704kb__number___number_2__number_2709__2__2__apple(aapl)__number_2__number_5__number_587______-kannualreport-oct__number_6__number_8__number_844______th,__number___number_1509______number_1466__8kb__number_2__number___number_532______apple(aapl)__number___number_2194__6__-kannualreport-oct__number___number_8__number_842____7__th,__number_237__7__number_2__number_7__number_860______kb__number_238__apple(aapl)__number_2__number_5__number_897______-kannualreport-oct__number___number_1__number_1__number_2323______4__st,__number___number_643__0____number___number_3574____kb__number_2__number_7__number_8__number_8__number_974__________apple(aapl)__number___number_946__5__-kannualreport-nov5th,__number___number___number_1349__3__3____number_1487__kb__number___number___number___number_1459__8__5__4__apple(aapl)__number___number_972__9__-kannualreport",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "nov5th,__number_2__number_1__number_1720______5__number___number___number_13__number_3025____6__4__kb__number_2__number___number_3492__17____apple(aapl)__number___number_427__2__-kannualreport",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "d",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "d",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "california__number_3__number___number_697______(addressofprincipalexecutiveoffice)(zipcode)(__number_3__number_389____)__number_3__number_3__number___number___number_3266____number_3541__________-__number_3__number___number___number_1363__5______(registranttelephonenumber",
+        "type": "DATE",
+        "confidence": 1.0
+      },
+      {
+        "text": "includingareacode)securityregisteredpursuanttosection__number___number___number_3280__17____(b)oftheacttitleofeachclasstradingsymbol(s)nameofeachexchangeonwhichregisteredcommonstock,__money_0__parvaluepershareaaplthenasdaqstockmarketllc__percentage_86__notedue__number_3__number_348____thenasdaqstockmarketllc__percentage_87__notedue__number_3__number_399____thenasdaqstockmarketllc__percentage_88__notedue__number_3__number___number_1__number_1637__1______thenasdaqstockmarketllc__percentage_89__notedue__number_3__number___number_1784______thenasdaqstockmarketllc__percentage_90__notedue__number___number___number_2378____number_1__number___number_20__number_2__number_2325______5______9__thenasdaqstockmarketllc__percentage___number_1800____notedue__number_3__number_564____thenasdaqstockmarketllc__percentage_92__notedue__number_3__number_377____thenasdaqstockmarketllc__percentage___number_1__number_2442______notedue__number___number___number___number_1557__1______thenasdaqstockmarketllcsecurityregisteredpursuanttosection__number_3__number___number_3284__71____(g)oftheactnoneindicatebycheckmarkiftheregistrantisawell",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "d",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "d",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "k",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "andreferencetoparticularyear,quarter",
+        "type": "DATE",
+        "confidence": 1.0
+      },
+      {
+        "text": "agamesubscriptionserviceapplefitnesssm",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "aco-brandedcreditcard",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "acashlesspaymentservice.segmentthecompanymanagesitbusinessprimarilyonageographicbasis.thecompanyreportablesegmentconsistoftheamerica",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "europe",
+        "type": "LOC",
+        "confidence": 1.0
+      },
+      {
+        "text": "greaterchina",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "japanandrestofasiapacific.americaincludesbothnorthandsouthamerica.europeincludeseuropeancountry",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "astrongthird",
+        "type": "NORP",
+        "confidence": 1.0
+      },
+      {
+        "text": "maybeaffectedifsupplierdecidetoconcentrateontheproductionofcommoncomponentinsteadofcomponentcustomizedtomeetthecompanyrequirement.thecompanyhaenteredintoagreementforthesupplyofmanycomponenthowever",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "rd",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "d",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "arelocatedoutsidetheu.s.aaresult",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "india",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "japan",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "southkorea",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "canmateriallyadverselyaffectthecompanybusinessandsupplychain.theimpactcanbeparticularlysignificantiftheserestrictivemeasureapplytocountryandregionwherethecompanyderivesasignificantportionofitrevenueandorhasignificantsupplychainoperation.restrictivemeasurecanincreasethecostofthecompanyproductandthecomponentandrawmaterialthatgointothem",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "suchinsurancecoveragemaybeinsufficienttocoveralllossthatmayarise.globalmarketforthecompanyproductandservicearehighlycompetitiveandsubjecttorapidtechnologicalchange",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "numeroussoftwareapplicationandrelatedservice.aaresult",
+        "type": "ORG",
+        "confidence": 1.0
+      }
+    ]
+  },
+  {
+    "id": "doc_20260108_200152_2119",
+    "filename": "Sample-Accounting-Income-Statement-PDF-File.pdf",
+    "path": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\5eme\\nlp\\Projet_semestriel_v2\\data\\documents\\Sample-Accounting-Income-Statement-PDF-File.pdf",
+    "status": "completed",
+    "uploaded_at": "2026-01-08T20:01:52.207992",
+    "processed_at": "2026-01-08T20:01:54.944048",
+    "metadata": {},
+    "keywords": [
+      "aofseptember30th",
+      "reconciledbalanceonseptember30th",
+      "abc",
+      "expense",
+      "equipment",
+      "inventoryequipment",
+      "archeryequip",
+      "liability",
+      "sign",
+      "productorservicereceivedbutnotyetpaid",
+      "installmentpaymentonequipment",
+      "product",
+      "andservicearenormallypaidatthetimeofpurchaseordelivery",
+      "regardlessofvalue",
+      "includethedateacquiredorpurchased",
+      "thevalue",
+      "purchasepriceoracquiredvalue",
+      "itemdescription",
+      "includetheserialnumber",
+      "ifapplicable"
+    ],
+    "entities": [
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "abc",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "abc",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "income",
+        "type": "METRIC",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "abc",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "$1,",
+        "type": "MONEY",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "$1,",
+        "type": "MONEY",
+        "confidence": 1.0
+      }
+    ]
+  },
+  {
+    "id": "doc_20260108_200524_7219",
+    "filename": "Sample-Accounting-Income-Statement-PDF-File.pdf",
+    "path": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\5eme\\nlp\\Projet_semestriel_v2\\data\\documents\\Sample-Accounting-Income-Statement-PDF-File.pdf",
+    "status": "completed",
+    "uploaded_at": "2026-01-08T20:05:24.471062",
+    "processed_at": "2026-01-08T20:05:27.024031",
+    "metadata": {},
+    "keywords": [
+      "aofseptember30th",
+      "reconciledbalanceonseptember30th",
+      "abc",
+      "expense",
+      "equipment",
+      "inventoryequipment",
+      "archeryequip",
+      "liability",
+      "sign",
+      "productorservicereceivedbutnotyetpaid",
+      "installmentpaymentonequipment",
+      "product",
+      "andservicearenormallypaidatthetimeofpurchaseordelivery",
+      "regardlessofvalue",
+      "includethedateacquiredorpurchased",
+      "thevalue",
+      "purchasepriceoracquiredvalue",
+      "itemdescription",
+      "includetheserialnumber",
+      "ifapplicable"
+    ],
+    "entities": [
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "abc",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "abc",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "income",
+        "type": "METRIC",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "abc",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "$1,",
+        "type": "MONEY",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "$1,",
+        "type": "MONEY",
+        "confidence": 1.0
+      }
+    ]
+  },
+  {
+    "id": "doc_20260108_200625_7219",
+    "filename": "Sample-Accounting-Income-Statement-PDF-File.pdf",
+    "path": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\5eme\\nlp\\Projet_semestriel_v2\\data\\documents\\Sample-Accounting-Income-Statement-PDF-File.pdf",
+    "status": "completed",
+    "uploaded_at": "2026-01-08T20:06:25.946577",
+    "processed_at": "2026-01-08T20:06:26.850710",
+    "metadata": {},
+    "keywords": [
+      "aofseptember30th",
+      "reconciledbalanceonseptember30th",
+      "abc",
+      "expense",
+      "equipment",
+      "inventoryequipment",
+      "archeryequip",
+      "liability",
+      "sign",
+      "productorservicereceivedbutnotyetpaid",
+      "installmentpaymentonequipment",
+      "product",
+      "andservicearenormallypaidatthetimeofpurchaseordelivery",
+      "regardlessofvalue",
+      "includethedateacquiredorpurchased",
+      "thevalue",
+      "purchasepriceoracquiredvalue",
+      "itemdescription",
+      "includetheserialnumber",
+      "ifapplicable"
+    ],
+    "entities": [
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "abc",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "abc",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "income",
+        "type": "METRIC",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "abc",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "$1,",
+        "type": "MONEY",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "$1,",
+        "type": "MONEY",
+        "confidence": 1.0
+      }
+    ]
+  },
+  {
+    "id": "doc_20260108_200630_6253",
+    "filename": "Sample-review-financials.pdf",
+    "path": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\5eme\\nlp\\Projet_semestriel_v2\\data\\documents\\Sample-review-financials.pdf",
+    "status": "completed",
+    "uploaded_at": "2026-01-08T20:06:30.867757",
+    "processed_at": "2026-01-08T20:06:53.195847",
+    "metadata": {},
+    "keywords": [
+      "inmillion",
+      "aapl",
+      "reputation",
+      "net",
+      "september30",
+      "loss",
+      "dollarinmillion",
+      "use",
+      "endingbalance",
+      "aofseptember28",
+      "quarter",
+      "personalcomputer",
+      "tablet",
+      "wholesaler",
+      "respectively",
+      "resultofoperation",
+      "amongotherthing",
+      "thecompany",
+      "september24",
+      "plantandequipment"
+    ],
+    "entities": [
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "nov3rd,__number_2__number___number_4__number_9__number___number_1__number_2439____69________number___number_24__number_2465__________6__number___number_2738__3__kb__number_2__number___number_1__number___number_1919__3__5______apple(aapl)__number_2__number_4__number___number_1__number_1979____67______-kannualreport-oct__number___number_497__8__th,__number___number___number_1__number___number_1__number_2209____4____7____number_36__number_4__number_589________704kb__number___number_2__number_2709__2__2__apple(aapl)__number_2__number_5__number_587______-kannualreport-oct__number_6__number_8__number_844______th,__number___number_1509______number_1466__8kb__number_2__number___number_532______apple(aapl)__number___number_2194__6__-kannualreport-oct__number___number_8__number_842____7__th,__number_237__7__number_2__number_7__number_860______kb__number_238__apple(aapl)__number_2__number_5__number_897______-kannualreport-oct__number___number_1__number_1__number_2323______4__st,__number___number_643__0____number___number_3574____kb__number_2__number_7__number_8__number_8__number_974__________apple(aapl)__number___number_946__5__-kannualreport-nov5th,__number___number___number_1349__3__3____number_1487__kb__number___number___number___number_1459__8__5__4__apple(aapl)__number___number_972__9__-kannualreport",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "nov5th,__number_2__number_1__number_1720______5__number___number___number_13__number_3025____6__4__kb__number_2__number___number_3492__17____apple(aapl)__number___number_427__2__-kannualreport",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "d",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "d",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "california__number_3__number___number_697______(addressofprincipalexecutiveoffice)(zipcode)(__number_3__number_389____)__number_3__number_3__number___number___number_3266____number_3541__________-__number_3__number___number___number_1363__5______(registranttelephonenumber",
+        "type": "DATE",
+        "confidence": 1.0
+      },
+      {
+        "text": "includingareacode)securityregisteredpursuanttosection__number___number___number_3280__17____(b)oftheacttitleofeachclasstradingsymbol(s)nameofeachexchangeonwhichregisteredcommonstock,__money_0__parvaluepershareaaplthenasdaqstockmarketllc__percentage_86__notedue__number_3__number_348____thenasdaqstockmarketllc__percentage_87__notedue__number_3__number_399____thenasdaqstockmarketllc__percentage_88__notedue__number_3__number___number_1__number_1637__1______thenasdaqstockmarketllc__percentage_89__notedue__number_3__number___number_1784______thenasdaqstockmarketllc__percentage_90__notedue__number___number___number_2378____number_1__number___number_20__number_2__number_2325______5______9__thenasdaqstockmarketllc__percentage___number_1800____notedue__number_3__number_564____thenasdaqstockmarketllc__percentage_92__notedue__number_3__number_377____thenasdaqstockmarketllc__percentage___number_1__number_2442______notedue__number___number___number___number_1557__1______thenasdaqstockmarketllcsecurityregisteredpursuanttosection__number_3__number___number_3284__71____(g)oftheactnoneindicatebycheckmarkiftheregistrantisawell",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "d",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "d",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "k",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "andreferencetoparticularyear,quarter",
+        "type": "DATE",
+        "confidence": 1.0
+      },
+      {
+        "text": "agamesubscriptionserviceapplefitnesssm",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "aco-brandedcreditcard",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "acashlesspaymentservice.segmentthecompanymanagesitbusinessprimarilyonageographicbasis.thecompanyreportablesegmentconsistoftheamerica",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "europe",
+        "type": "LOC",
+        "confidence": 1.0
+      },
+      {
+        "text": "greaterchina",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "japanandrestofasiapacific.americaincludesbothnorthandsouthamerica.europeincludeseuropeancountry",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "astrongthird",
+        "type": "NORP",
+        "confidence": 1.0
+      },
+      {
+        "text": "maybeaffectedifsupplierdecidetoconcentrateontheproductionofcommoncomponentinsteadofcomponentcustomizedtomeetthecompanyrequirement.thecompanyhaenteredintoagreementforthesupplyofmanycomponenthowever",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "rd",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "d",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "arelocatedoutsidetheu.s.aaresult",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "india",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "japan",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "southkorea",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "canmateriallyadverselyaffectthecompanybusinessandsupplychain.theimpactcanbeparticularlysignificantiftheserestrictivemeasureapplytocountryandregionwherethecompanyderivesasignificantportionofitrevenueandorhasignificantsupplychainoperation.restrictivemeasurecanincreasethecostofthecompanyproductandthecomponentandrawmaterialthatgointothem",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "suchinsurancecoveragemaybeinsufficienttocoveralllossthatmayarise.globalmarketforthecompanyproductandservicearehighlycompetitiveandsubjecttorapidtechnologicalchange",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "numeroussoftwareapplicationandrelatedservice.aaresult",
+        "type": "ORG",
+        "confidence": 1.0
+      }
+    ]
+  },
+  {
+    "id": "doc_20260108_200730_6253",
+    "filename": "Sample-review-financials.pdf",
+    "path": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\5eme\\nlp\\Projet_semestriel_v2\\data\\documents\\Sample-review-financials.pdf",
+    "status": "completed",
+    "uploaded_at": "2026-01-08T20:07:30.412996",
+    "processed_at": "2026-01-08T20:08:06.966682",
+    "metadata": {},
+    "keywords": [
+      "inmillion",
+      "aapl",
+      "reputation",
+      "net",
+      "september30",
+      "loss",
+      "dollarinmillion",
+      "use",
+      "endingbalance",
+      "aofseptember28",
+      "quarter",
+      "personalcomputer",
+      "tablet",
+      "wholesaler",
+      "respectively",
+      "resultofoperation",
+      "amongotherthing",
+      "thecompany",
+      "september24",
+      "plantandequipment"
+    ],
+    "entities": [
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "nov3rd,__number_2__number___number_4__number_9__number___number_1__number_2439____69________number___number_24__number_2465__________6__number___number_2738__3__kb__number_2__number___number_1__number___number_1919__3__5______apple(aapl)__number_2__number_4__number___number_1__number_1979____67______-kannualreport-oct__number___number_497__8__th,__number___number___number_1__number___number_1__number_2209____4____7____number_36__number_4__number_589________704kb__number___number_2__number_2709__2__2__apple(aapl)__number_2__number_5__number_587______-kannualreport-oct__number_6__number_8__number_844______th,__number___number_1509______number_1466__8kb__number_2__number___number_532______apple(aapl)__number___number_2194__6__-kannualreport-oct__number___number_8__number_842____7__th,__number_237__7__number_2__number_7__number_860______kb__number_238__apple(aapl)__number_2__number_5__number_897______-kannualreport-oct__number___number_1__number_1__number_2323______4__st,__number___number_643__0____number___number_3574____kb__number_2__number_7__number_8__number_8__number_974__________apple(aapl)__number___number_946__5__-kannualreport-nov5th,__number___number___number_1349__3__3____number_1487__kb__number___number___number___number_1459__8__5__4__apple(aapl)__number___number_972__9__-kannualreport",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "nov5th,__number_2__number_1__number_1720______5__number___number___number_13__number_3025____6__4__kb__number_2__number___number_3492__17____apple(aapl)__number___number_427__2__-kannualreport",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "d",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "d",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "california__number_3__number___number_697______(addressofprincipalexecutiveoffice)(zipcode)(__number_3__number_389____)__number_3__number_3__number___number___number_3266____number_3541__________-__number_3__number___number___number_1363__5______(registranttelephonenumber",
+        "type": "DATE",
+        "confidence": 1.0
+      },
+      {
+        "text": "includingareacode)securityregisteredpursuanttosection__number___number___number_3280__17____(b)oftheacttitleofeachclasstradingsymbol(s)nameofeachexchangeonwhichregisteredcommonstock,__money_0__parvaluepershareaaplthenasdaqstockmarketllc__percentage_86__notedue__number_3__number_348____thenasdaqstockmarketllc__percentage_87__notedue__number_3__number_399____thenasdaqstockmarketllc__percentage_88__notedue__number_3__number___number_1__number_1637__1______thenasdaqstockmarketllc__percentage_89__notedue__number_3__number___number_1784______thenasdaqstockmarketllc__percentage_90__notedue__number___number___number_2378____number_1__number___number_20__number_2__number_2325______5______9__thenasdaqstockmarketllc__percentage___number_1800____notedue__number_3__number_564____thenasdaqstockmarketllc__percentage_92__notedue__number_3__number_377____thenasdaqstockmarketllc__percentage___number_1__number_2442______notedue__number___number___number___number_1557__1______thenasdaqstockmarketllcsecurityregisteredpursuanttosection__number_3__number___number_3284__71____(g)oftheactnoneindicatebycheckmarkiftheregistrantisawell",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "d",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "d",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "k",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "andreferencetoparticularyear,quarter",
+        "type": "DATE",
+        "confidence": 1.0
+      },
+      {
+        "text": "agamesubscriptionserviceapplefitnesssm",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "aco-brandedcreditcard",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "acashlesspaymentservice.segmentthecompanymanagesitbusinessprimarilyonageographicbasis.thecompanyreportablesegmentconsistoftheamerica",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "europe",
+        "type": "LOC",
+        "confidence": 1.0
+      },
+      {
+        "text": "greaterchina",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "japanandrestofasiapacific.americaincludesbothnorthandsouthamerica.europeincludeseuropeancountry",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "astrongthird",
+        "type": "NORP",
+        "confidence": 1.0
+      },
+      {
+        "text": "maybeaffectedifsupplierdecidetoconcentrateontheproductionofcommoncomponentinsteadofcomponentcustomizedtomeetthecompanyrequirement.thecompanyhaenteredintoagreementforthesupplyofmanycomponenthowever",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "rd",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "d",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "arelocatedoutsidetheu.s.aaresult",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "india",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "japan",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "southkorea",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "canmateriallyadverselyaffectthecompanybusinessandsupplychain.theimpactcanbeparticularlysignificantiftheserestrictivemeasureapplytocountryandregionwherethecompanyderivesasignificantportionofitrevenueandorhasignificantsupplychainoperation.restrictivemeasurecanincreasethecostofthecompanyproductandthecomponentandrawmaterialthatgointothem",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "suchinsurancecoveragemaybeinsufficienttocoveralllossthatmayarise.globalmarketforthecompanyproductandservicearehighlycompetitiveandsubjecttorapidtechnologicalchange",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "numeroussoftwareapplicationandrelatedservice.aaresult",
+        "type": "ORG",
+        "confidence": 1.0
+      }
+    ]
+  },
+  {
+    "id": "doc_20260108_200735_6253",
+    "filename": "Sample-review-financials.pdf",
+    "path": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\5eme\\nlp\\Projet_semestriel_v2\\data\\documents\\Sample-review-financials.pdf",
+    "status": "completed",
+    "uploaded_at": "2026-01-08T20:07:35.467785",
+    "processed_at": "2026-01-08T20:08:08.112549",
+    "metadata": {},
+    "keywords": [
+      "inmillion",
+      "aapl",
+      "reputation",
+      "net",
+      "september30",
+      "loss",
+      "dollarinmillion",
+      "use",
+      "endingbalance",
+      "aofseptember28",
+      "quarter",
+      "personalcomputer",
+      "tablet",
+      "wholesaler",
+      "respectively",
+      "resultofoperation",
+      "amongotherthing",
+      "thecompany",
+      "september24",
+      "plantandequipment"
+    ],
+    "entities": [
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "nov3rd,__number_2__number___number_4__number_9__number___number_1__number_2439____69________number___number_24__number_2465__________6__number___number_2738__3__kb__number_2__number___number_1__number___number_1919__3__5______apple(aapl)__number_2__number_4__number___number_1__number_1979____67______-kannualreport-oct__number___number_497__8__th,__number___number___number_1__number___number_1__number_2209____4____7____number_36__number_4__number_589________704kb__number___number_2__number_2709__2__2__apple(aapl)__number_2__number_5__number_587______-kannualreport-oct__number_6__number_8__number_844______th,__number___number_1509______number_1466__8kb__number_2__number___number_532______apple(aapl)__number___number_2194__6__-kannualreport-oct__number___number_8__number_842____7__th,__number_237__7__number_2__number_7__number_860______kb__number_238__apple(aapl)__number_2__number_5__number_897______-kannualreport-oct__number___number_1__number_1__number_2323______4__st,__number___number_643__0____number___number_3574____kb__number_2__number_7__number_8__number_8__number_974__________apple(aapl)__number___number_946__5__-kannualreport-nov5th,__number___number___number_1349__3__3____number_1487__kb__number___number___number___number_1459__8__5__4__apple(aapl)__number___number_972__9__-kannualreport",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "nov5th,__number_2__number_1__number_1720______5__number___number___number_13__number_3025____6__4__kb__number_2__number___number_3492__17____apple(aapl)__number___number_427__2__-kannualreport",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "d",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "d",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "california__number_3__number___number_697______(addressofprincipalexecutiveoffice)(zipcode)(__number_3__number_389____)__number_3__number_3__number___number___number_3266____number_3541__________-__number_3__number___number___number_1363__5______(registranttelephonenumber",
+        "type": "DATE",
+        "confidence": 1.0
+      },
+      {
+        "text": "includingareacode)securityregisteredpursuanttosection__number___number___number_3280__17____(b)oftheacttitleofeachclasstradingsymbol(s)nameofeachexchangeonwhichregisteredcommonstock,__money_0__parvaluepershareaaplthenasdaqstockmarketllc__percentage_86__notedue__number_3__number_348____thenasdaqstockmarketllc__percentage_87__notedue__number_3__number_399____thenasdaqstockmarketllc__percentage_88__notedue__number_3__number___number_1__number_1637__1______thenasdaqstockmarketllc__percentage_89__notedue__number_3__number___number_1784______thenasdaqstockmarketllc__percentage_90__notedue__number___number___number_2378____number_1__number___number_20__number_2__number_2325______5______9__thenasdaqstockmarketllc__percentage___number_1800____notedue__number_3__number_564____thenasdaqstockmarketllc__percentage_92__notedue__number_3__number_377____thenasdaqstockmarketllc__percentage___number_1__number_2442______notedue__number___number___number___number_1557__1______thenasdaqstockmarketllcsecurityregisteredpursuanttosection__number_3__number___number_3284__71____(g)oftheactnoneindicatebycheckmarkiftheregistrantisawell",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "d",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "d",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "k",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "andreferencetoparticularyear,quarter",
+        "type": "DATE",
+        "confidence": 1.0
+      },
+      {
+        "text": "agamesubscriptionserviceapplefitnesssm",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "aco-brandedcreditcard",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "acashlesspaymentservice.segmentthecompanymanagesitbusinessprimarilyonageographicbasis.thecompanyreportablesegmentconsistoftheamerica",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "europe",
+        "type": "LOC",
+        "confidence": 1.0
+      },
+      {
+        "text": "greaterchina",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "japanandrestofasiapacific.americaincludesbothnorthandsouthamerica.europeincludeseuropeancountry",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "astrongthird",
+        "type": "NORP",
+        "confidence": 1.0
+      },
+      {
+        "text": "maybeaffectedifsupplierdecidetoconcentrateontheproductionofcommoncomponentinsteadofcomponentcustomizedtomeetthecompanyrequirement.thecompanyhaenteredintoagreementforthesupplyofmanycomponenthowever",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "rd",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "d",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "arelocatedoutsidetheu.s.aaresult",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "india",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "japan",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "southkorea",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "canmateriallyadverselyaffectthecompanybusinessandsupplychain.theimpactcanbeparticularlysignificantiftheserestrictivemeasureapplytocountryandregionwherethecompanyderivesasignificantportionofitrevenueandorhasignificantsupplychainoperation.restrictivemeasurecanincreasethecostofthecompanyproductandthecomponentandrawmaterialthatgointothem",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "suchinsurancecoveragemaybeinsufficienttocoveralllossthatmayarise.globalmarketforthecompanyproductandservicearehighlycompetitiveandsubjecttorapidtechnologicalchange",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "numeroussoftwareapplicationandrelatedservice.aaresult",
+        "type": "ORG",
+        "confidence": 1.0
+      }
+    ]
+  },
+  {
+    "id": "doc_20260108_200937_2044",
+    "filename": "Sample-Accounting-Income-Statement-PDF-File.pdf",
+    "path": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\5eme\\nlp\\Projet_semestriel_v2\\data\\documents\\Sample-Accounting-Income-Statement-PDF-File.pdf",
+    "status": "completed",
+    "uploaded_at": "2026-01-08T20:09:38.014366",
+    "processed_at": "2026-01-08T20:09:40.273159",
+    "metadata": {},
+    "keywords": [
+      "aofseptember30th",
+      "reconciledbalanceonseptember30th",
+      "abc",
+      "expense",
+      "equipment",
+      "inventoryequipment",
+      "archeryequip",
+      "liability",
+      "sign",
+      "productorservicereceivedbutnotyetpaid",
+      "installmentpaymentonequipment",
+      "product",
+      "andservicearenormallypaidatthetimeofpurchaseordelivery",
+      "regardlessofvalue",
+      "includethedateacquiredorpurchased",
+      "thevalue",
+      "purchasepriceoracquiredvalue",
+      "itemdescription",
+      "includetheserialnumber",
+      "ifapplicable"
+    ],
+    "entities": [
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "abc",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "abc",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "income",
+        "type": "METRIC",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "abc",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "$1,",
+        "type": "MONEY",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "$1,",
+        "type": "MONEY",
+        "confidence": 1.0
+      }
+    ]
+  },
+  {
+    "id": "doc_20260108_201328_5174",
+    "filename": "Sample-Accounting-Income-Statement-PDF-File.pdf",
+    "path": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\5eme\\nlp\\Projet_semestriel_v2\\data\\documents\\Sample-Accounting-Income-Statement-PDF-File.pdf",
+    "status": "completed",
+    "uploaded_at": "2026-01-08T20:13:28.826617",
+    "processed_at": "2026-01-08T20:13:31.060694",
+    "metadata": {},
+    "keywords": [
+      "aofseptember30th",
+      "reconciledbalanceonseptember30th",
+      "abc",
+      "expense",
+      "equipment",
+      "inventoryequipment",
+      "archeryequip",
+      "liability",
+      "sign",
+      "productorservicereceivedbutnotyetpaid",
+      "installmentpaymentonequipment",
+      "product",
+      "andservicearenormallypaidatthetimeofpurchaseordelivery",
+      "regardlessofvalue",
+      "includethedateacquiredorpurchased",
+      "thevalue",
+      "purchasepriceoracquiredvalue",
+      "itemdescription",
+      "includetheserialnumber",
+      "ifapplicable"
+    ],
+    "entities": [
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "abc",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "abc",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "income",
+        "type": "METRIC",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "abc",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "$1,",
+        "type": "MONEY",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "$1,",
+        "type": "MONEY",
+        "confidence": 1.0
+      }
+    ]
+  },
+  {
+    "id": "doc_20260108_201340_7605",
+    "filename": "Sample-review-financials.pdf",
+    "path": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\5eme\\nlp\\Projet_semestriel_v2\\data\\documents\\Sample-review-financials.pdf",
+    "status": "completed",
+    "uploaded_at": "2026-01-08T20:13:40.099605",
+    "processed_at": "2026-01-08T20:14:01.939178",
+    "metadata": {},
+    "keywords": [
+      "inmillion",
+      "aapl",
+      "reputation",
+      "net",
+      "september30",
+      "loss",
+      "dollarinmillion",
+      "use",
+      "endingbalance",
+      "aofseptember28",
+      "quarter",
+      "personalcomputer",
+      "tablet",
+      "wholesaler",
+      "respectively",
+      "resultofoperation",
+      "amongotherthing",
+      "thecompany",
+      "september24",
+      "plantandequipment"
+    ],
+    "entities": [
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "nov3rd,__number_2__number___number_4__number_9__number___number_1__number_2439____69________number___number_24__number_2465__________6__number___number_2738__3__kb__number_2__number___number_1__number___number_1919__3__5______apple(aapl)__number_2__number_4__number___number_1__number_1979____67______-kannualreport-oct__number___number_497__8__th,__number___number___number_1__number___number_1__number_2209____4____7____number_36__number_4__number_589________704kb__number___number_2__number_2709__2__2__apple(aapl)__number_2__number_5__number_587______-kannualreport-oct__number_6__number_8__number_844______th,__number___number_1509______number_1466__8kb__number_2__number___number_532______apple(aapl)__number___number_2194__6__-kannualreport-oct__number___number_8__number_842____7__th,__number_237__7__number_2__number_7__number_860______kb__number_238__apple(aapl)__number_2__number_5__number_897______-kannualreport-oct__number___number_1__number_1__number_2323______4__st,__number___number_643__0____number___number_3574____kb__number_2__number_7__number_8__number_8__number_974__________apple(aapl)__number___number_946__5__-kannualreport-nov5th,__number___number___number_1349__3__3____number_1487__kb__number___number___number___number_1459__8__5__4__apple(aapl)__number___number_972__9__-kannualreport",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "nov5th,__number_2__number_1__number_1720______5__number___number___number_13__number_3025____6__4__kb__number_2__number___number_3492__17____apple(aapl)__number___number_427__2__-kannualreport",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "d",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "d",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "california__number_3__number___number_697______(addressofprincipalexecutiveoffice)(zipcode)(__number_3__number_389____)__number_3__number_3__number___number___number_3266____number_3541__________-__number_3__number___number___number_1363__5______(registranttelephonenumber",
+        "type": "DATE",
+        "confidence": 1.0
+      },
+      {
+        "text": "includingareacode)securityregisteredpursuanttosection__number___number___number_3280__17____(b)oftheacttitleofeachclasstradingsymbol(s)nameofeachexchangeonwhichregisteredcommonstock,__money_0__parvaluepershareaaplthenasdaqstockmarketllc__percentage_86__notedue__number_3__number_348____thenasdaqstockmarketllc__percentage_87__notedue__number_3__number_399____thenasdaqstockmarketllc__percentage_88__notedue__number_3__number___number_1__number_1637__1______thenasdaqstockmarketllc__percentage_89__notedue__number_3__number___number_1784______thenasdaqstockmarketllc__percentage_90__notedue__number___number___number_2378____number_1__number___number_20__number_2__number_2325______5______9__thenasdaqstockmarketllc__percentage___number_1800____notedue__number_3__number_564____thenasdaqstockmarketllc__percentage_92__notedue__number_3__number_377____thenasdaqstockmarketllc__percentage___number_1__number_2442______notedue__number___number___number___number_1557__1______thenasdaqstockmarketllcsecurityregisteredpursuanttosection__number_3__number___number_3284__71____(g)oftheactnoneindicatebycheckmarkiftheregistrantisawell",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "d",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "d",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "k",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "andreferencetoparticularyear,quarter",
+        "type": "DATE",
+        "confidence": 1.0
+      },
+      {
+        "text": "agamesubscriptionserviceapplefitnesssm",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "aco-brandedcreditcard",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "acashlesspaymentservice.segmentthecompanymanagesitbusinessprimarilyonageographicbasis.thecompanyreportablesegmentconsistoftheamerica",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "europe",
+        "type": "LOC",
+        "confidence": 1.0
+      },
+      {
+        "text": "greaterchina",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "japanandrestofasiapacific.americaincludesbothnorthandsouthamerica.europeincludeseuropeancountry",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "astrongthird",
+        "type": "NORP",
+        "confidence": 1.0
+      },
+      {
+        "text": "maybeaffectedifsupplierdecidetoconcentrateontheproductionofcommoncomponentinsteadofcomponentcustomizedtomeetthecompanyrequirement.thecompanyhaenteredintoagreementforthesupplyofmanycomponenthowever",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "rd",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "d",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "arelocatedoutsidetheu.s.aaresult",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "india",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "japan",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "southkorea",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "canmateriallyadverselyaffectthecompanybusinessandsupplychain.theimpactcanbeparticularlysignificantiftheserestrictivemeasureapplytocountryandregionwherethecompanyderivesasignificantportionofitrevenueandorhasignificantsupplychainoperation.restrictivemeasurecanincreasethecostofthecompanyproductandthecomponentandrawmaterialthatgointothem",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "suchinsurancecoveragemaybeinsufficienttocoveralllossthatmayarise.globalmarketforthecompanyproductandservicearehighlycompetitiveandsubjecttorapidtechnologicalchange",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "numeroussoftwareapplicationandrelatedservice.aaresult",
+        "type": "ORG",
+        "confidence": 1.0
+      }
+    ]
+  }
+]

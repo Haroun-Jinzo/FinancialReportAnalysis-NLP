@@ -1,9 +1,4 @@
-"""
-Model Loader - Base class for managing transformer models
-Handles loading, caching, and device management
-"""
-
-import os
+import json
 import torch
 from pathlib import Path
 from typing import Optional, Dict, Any
@@ -24,17 +19,8 @@ from transformers import (
 
 
 class ModelLoader:
-    """
-    Base class for loading and managing transformer models
-    """
-    
     def __init__(self, config_path: str = "config/model_config.yaml"):
-        """
-        Initialize model loader
-        
-        Args:
-            config_path: Path to model configuration file
-        """
+
         self.config_path = config_path
         self.config = self._load_config()
         self.device = self._get_device()
@@ -49,7 +35,7 @@ class ModelLoader:
         print(f"  Cache: {self.cache_dir}")
     
     def _load_config(self) -> Dict:
-        """Load configuration from YAML file"""
+
         try:
             with open(self.config_path, 'r') as f:
                 config = yaml.safe_load(f)
@@ -60,7 +46,6 @@ class ModelLoader:
             return self._default_config()
     
     def _default_config(self) -> Dict:
-        """Default configuration if file not found"""
         return {
             'models': {
                 'ner': {
@@ -87,6 +72,18 @@ class ModelLoader:
                     'name': 'sentence-transformers/all-MiniLM-L6-v2',
                     'cache_dir': 'data/models/embeddings',
                     'device': 'cpu'
+                },
+                'ner_finetuned': {
+                    'name': 'models/financial_ner',
+                    'cache_dir': None,
+                    'device': 'cuda',
+                    'type': 'local'
+                },
+                'sentiment_finetuned': {
+                    'name': 'models/finbert_custom',
+                    'cache_dir': None,
+                    'device': 'cuda',
+                    'type': 'local' 
                 }
             },
             'parameters': {
@@ -101,24 +98,14 @@ class ModelLoader:
         """Determine the best available device (cuda/cpu)"""
         if torch.cuda.is_available():
             device = 'cuda'
-            print(f"  ℹ GPU detected: {torch.cuda.get_device_name(0)}")
+            print(f" GPU detected: {torch.cuda.get_device_name(0)}")
         else:
             device = 'cpu'
-            print(f"  ℹ Using CPU (GPU not available)")
+            print(f" Using CPU (GPU not available)")
         
         return device
     
     def load_model(self, model_type: str, force_reload: bool = False) -> Dict:
-        """
-        Load a specific model type
-        
-        Args:
-            model_type: Type of model (ner, sentiment, qa, summarization, embeddings)
-            force_reload: Force reload even if cached
-            
-        Returns:
-            Dictionary with model, tokenizer, and pipeline
-        """
         # Check cache first
         if model_type in self._loaded_models and not force_reload:
             print(f"✓ Using cached {model_type} model")
@@ -133,30 +120,38 @@ class ModelLoader:
             raise ValueError(f"Unknown model type: {model_type}")
         
         model_name = model_config['name']
-        cache_dir = Path(model_config['cache_dir'])
-        cache_dir.mkdir(parents=True, exist_ok=True)
+        model_source = model_config.get('type', 'base')
         
         print(f"  Model: {model_name}")
-        print(f"  Cache: {cache_dir}")
+        print(f"  Source: {model_source}")
         
-        try:
+        if model_source == 'local':
+            print(f"  Type: Fine-tuned (local)")
+            result = self._load_specific_model(model_type, model_name, None)
+        else:
+            print(f"  Type: Base (HuggingFace)")
+            cache_dir = Path(model_config['cache_dir'])
+            cache_dir.mkdir(parents=True, exist_ok=True)
+            print(f"  Cache: {cache_dir}")
             result = self._load_specific_model(model_type, model_name, cache_dir)
-            self._loaded_models[model_type] = result
-            print(f"✓ {model_type.upper()} model loaded successfully")
-            return result
-            
-        except Exception as e:
-            print(f"✗ Error loading {model_type} model: {e}")
-            raise
+        
+        self._loaded_models[model_type] = result
+        print(f"✓ {model_type.upper()} model loaded successfully")
+        return result
     
     def _load_specific_model(self, model_type: str, model_name: str, 
                             cache_dir: Path) -> Dict:
-        """Load specific model based on type"""
-        
-        if model_type == 'ner':
-            return self._load_ner_model(model_name, cache_dir)
-        elif model_type == 'sentiment':
-            return self._load_sentiment_model(model_name, cache_dir)
+        label_mappings = None
+        label_file = 'models/financial_ner/label_mappings.json'
+        if label_file.endswith('.json') and Path(label_file).exists():
+            print("  Loading label mappings...")
+            with open(label_file, 'r') as f:
+                label_mappings = json.load(f)
+
+        if model_type == 'ner_finetuned':
+            return self._load_ner_model(model_name, label_mappings)
+        elif model_type == 'sentiment_finetuned':
+            return self._load_sentiment_model(model_name)
         elif model_type == 'qa':
             return self._load_qa_model(model_name, cache_dir)
         elif model_type == 'summarization':
@@ -166,18 +161,16 @@ class ModelLoader:
         else:
             raise ValueError(f"Unknown model type: {model_type}")
     
-    def _load_ner_model(self, model_name: str, cache_dir: Path) -> Dict:
-        """Load NER model"""
+    def _load_ner_model(self, model_path: Path, label_mappings: Dict = None) -> Dict:
+
         print("  Loading tokenizer...")
         tokenizer = AutoTokenizer.from_pretrained(
-            model_name,
-            cache_dir=str(cache_dir)
+            str(model_path)
         )
         
         print("  Loading model...")
         model = AutoModelForTokenClassification.from_pretrained(
-            model_name,
-            cache_dir=str(cache_dir)
+            str(model_path)
         )
         model.to(self.device)
         model.eval()
@@ -195,21 +188,20 @@ class ModelLoader:
             'model': model,
             'tokenizer': tokenizer,
             'pipeline': ner_pipeline,
-            'type': 'ner'
+            'type': 'ner',
+            'label_mappings': label_mappings,
+            'is_finetuned': True
         }
     
-    def _load_sentiment_model(self, model_name: str, cache_dir: Path) -> Dict:
-        """Load sentiment analysis model"""
+    def _load_sentiment_model(self, model_path: Path) -> Dict:
         print("  Loading tokenizer...")
         tokenizer = AutoTokenizer.from_pretrained(
-            model_name,
-            cache_dir=str(cache_dir)
+            str(model_path)
         )
         
         print("  Loading model...")
         model = AutoModelForSequenceClassification.from_pretrained(
-            model_name,
-            cache_dir=str(cache_dir)
+            str(model_path)
         )
         model.to(self.device)
         model.eval()
@@ -226,11 +218,11 @@ class ModelLoader:
             'model': model,
             'tokenizer': tokenizer,
             'pipeline': sentiment_pipeline,
-            'type': 'sentiment'
+            'type': 'sentiment',
+            'is_finetuned': True
         }
     
     def _load_qa_model(self, model_name: str, cache_dir: Path) -> Dict:
-        """Load question answering model"""
         print("  Loading tokenizer...")
         tokenizer = AutoTokenizer.from_pretrained(
             model_name,
@@ -353,10 +345,12 @@ if __name__ == "__main__":
     loader = ModelLoader()
     
     # Load a model
-    ner_model = loader.load_model('ner')
+    ner_model = loader.load_model('ner_finetuned')
+    sentiment_model = loader.load_model('sentiment_finetuned')
     
     # Get model info
-    info = loader.get_model_info('ner')
+    info = loader.get_model_info('ner_finetuned')
+    info = loader.get_model_info('sentiment_finetuned')
     print(f"\nModel Info: {info}")
     
     print("\n✓ Model Loader Module Ready!")

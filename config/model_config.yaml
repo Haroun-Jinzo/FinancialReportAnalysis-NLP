@@ -3,27 +3,42 @@ models:
   ner:
     name: "dslim/bert-base-NER"
     cache_dir: "data/models/ner"
-    device: "cpu"  # Change to "cuda" if GPU available
+    device: "cuda"  # Change to "cuda" if GPU available
   
   sentiment:
     name: "ProsusAI/finbert"
     cache_dir: "data/models/sentiment"
-    device: "cpu"
+    device: "cuda"
   
   qa:
     name: "deepset/roberta-base-squad2"
     cache_dir: "data/models/qa"
-    device: "cpu"
+    device: "cuda"
   
   summarization:
     name: "facebook/bart-large-cnn"
     cache_dir: "data/models/summarization"
-    device: "cpu"
+    device: "cuda"
   
   embeddings:
     name: "sentence-transformers/all-MiniLM-L6-v2"
     cache_dir: "data/models/embeddings"
-    device: "cpu"
+    device: "cuda"
+
+  # Fine-tuned models (local paths)
+  ner_finetuned:
+    name: "models/financial_ner"
+    cache_dir: null  # Not needed for local models
+    device: "cuda"
+    type: "local"
+    description: "Fine-tuned NER for financial entities"
+  
+  sentiment_finetuned:
+    name: "models/finbert_custom"
+    cache_dir: null
+    device: "cuda"
+    type: "local"
+    description: "Fine-tuned FinBERT for financial sentiment"
 
 # Model parameters
 parameters:

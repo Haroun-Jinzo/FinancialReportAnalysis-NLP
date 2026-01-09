@@ -1,8 +1,3 @@
-"""
-Question Answering Module
-Answer questions about financial documents using RoBERTa
-"""
-
 from typing import List, Dict, Optional, Tuple
 import re
 
@@ -10,10 +5,6 @@ from .model_loader import ModelLoader
 
 
 class FinancialQA:
-    """
-    Question Answering system for financial documents
-    Uses RoBERTa trained on SQuAD 2.0
-    """
     
     def __init__(self):
         """Initialize QA system"""
@@ -57,17 +48,7 @@ class FinancialQA:
     
     def answer(self, question: str, context: str,
               confidence_threshold: float = 0.5) -> Dict:
-        """
-        Answer a question based on context
-        
-        Args:
-            question: Question to answer
-            context: Context text containing the answer
-            confidence_threshold: Minimum confidence for valid answer
-            
-        Returns:
-            Dictionary with answer and metadata
-        """
+
         if not question or not context:
             return {
                 'question': question,
@@ -132,9 +113,7 @@ class FinancialQA:
     
     def _smart_truncate(self, context: str, question: str, 
                        max_length: int) -> str:
-        """
-        Intelligently truncate context to keep relevant parts
-        """
+
         # Extract keywords from question
         keywords = self._extract_keywords(question)
         
@@ -168,7 +147,7 @@ class FinancialQA:
         return '. '.join([sent for _, sent in selected])
     
     def _extract_keywords(self, text: str) -> List[str]:
-        """Extract keywords from text"""
+
         # Remove common question words
         stopwords = {'what', 'when', 'where', 'who', 'how', 'why', 'is', 'was', 
                     'the', 'a', 'an', 'did', 'do', 'does'}
@@ -179,7 +158,7 @@ class FinancialQA:
         return keywords
     
     def _clean_answer(self, answer: str) -> str:
-        """Clean and format answer"""
+
         # Remove extra whitespace
         answer = ' '.join(answer.split())
         
@@ -192,7 +171,7 @@ class FinancialQA:
     
     def _get_extended_context(self, full_context: str, answer: str,
                              start: int, end: int, window: int = 100) -> str:
-        """Get extended context around answer"""
+
         context_start = max(0, start - window)
         context_end = min(len(full_context), end + window)
         
@@ -208,16 +187,7 @@ class FinancialQA:
     
     def answer_multiple(self, questions: List[str], 
                        context: str) -> List[Dict]:
-        """
-        Answer multiple questions about the same context
-        
-        Args:
-            questions: List of questions
-            context: Context text
-            
-        Returns:
-            List of answer dictionaries
-        """
+
         results = []
         
         for question in questions:
@@ -228,16 +198,7 @@ class FinancialQA:
     
     def extract_key_facts(self, context: str, 
                          fact_types: Optional[List[str]] = None) -> Dict:
-        """
-        Extract key facts using predefined question templates
-        
-        Args:
-            context: Context text
-            fact_types: Types of facts to extract (revenue, profit, etc.)
-            
-        Returns:
-            Dictionary of extracted facts
-        """
+
         if fact_types is None:
             fact_types = ['revenue', 'profit', 'eps', 'growth']
         
@@ -265,12 +226,7 @@ class FinancialQA:
         return facts
     
     def find_answer_span(self, context: str, answer: str) -> List[Tuple[int, int]]:
-        """
-        Find all occurrences of answer in context
-        
-        Returns:
-            List of (start, end) positions
-        """
+
         spans = []
         answer_lower = answer.lower()
         context_lower = context.lower()
@@ -286,13 +242,7 @@ class FinancialQA:
         return spans
     
     def interactive_qa(self, context: str, max_questions: int = 10):
-        """
-        Interactive QA session (for testing)
-        
-        Args:
-            context: Context text
-            max_questions: Maximum number of questions
-        """
+
         print("\n" + "="*60)
         print("INTERACTIVE QA SESSION")
         print("="*60)
@@ -327,16 +277,7 @@ class FinancialQA:
     
     def generate_faq(self, context: str, 
                     num_questions: int = 5) -> List[Dict]:
-        """
-        Generate FAQ from document using common questions
-        
-        Args:
-            context: Context text
-            num_questions: Number of FAQ items to generate
-            
-        Returns:
-            List of Q&A pairs
-        """
+
         faq = []
         
         # Collect all template questions

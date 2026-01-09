@@ -1,8 +1,3 @@
-"""
-Named Entity Recognition (NER) Module
-Extracts financial entities: companies, people, locations, money, dates, metrics
-"""
-
 import re
 from typing import List, Dict, Optional, Tuple
 from collections import defaultdict
@@ -12,23 +7,14 @@ from models.model_loader import ModelLoader
 
 
 class FinancialNER:
-    """
-    Financial Named Entity Recognition
-    Combines transformer-based NER with rule-based financial entity extraction
-    """
-    
+
     def __init__(self, use_spacy: bool = True):
-        """
-        Initialize NER system
-        
-        Args:
-            use_spacy: Use spaCy for additional entity extraction
-        """
+
         print("Initializing Financial NER...")
         
         # Load transformer model
         self.loader = ModelLoader()
-        self.model_data = self.loader.load_model('ner')
+        self.model_data = self.loader.load_model('ner_finetuned')
         self.pipeline = self.model_data['pipeline']
         
         # Load spaCy for additional features
@@ -67,16 +53,6 @@ class FinancialNER:
     
     def extract_entities(self, text: str, 
                         confidence_threshold: float = 0.5) -> List[Dict]:
-        """
-        Extract all entities from text
-        
-        Args:
-            text: Input text
-            confidence_threshold: Minimum confidence score
-            
-        Returns:
-            List of entity dictionaries
-        """
         entities = []
         
         # 1. Transformer-based NER
@@ -129,7 +105,7 @@ class FinancialNER:
         return results
     
     def _extract_spacy_entities(self, text: str) -> List[Dict]:
-        """Extract entities using spaCy"""
+        
         results = []
         
         try:
@@ -139,7 +115,7 @@ class FinancialNER:
                 results.append({
                     'text': ent.text,
                     'label': ent.label_,
-                    'score': 1.0,  # spaCy doesn't provide scores
+                    'score': 1.0, 
                     'start': ent.start_char,
                     'end': ent.end_char,
                     'source': 'spacy'
@@ -151,7 +127,7 @@ class FinancialNER:
         return results
     
     def _extract_financial_entities(self, text: str) -> List[Dict]:
-        """Extract financial entities using regex patterns"""
+
         results = []
         
         for entity_type, pattern in self.patterns.items():
@@ -170,10 +146,7 @@ class FinancialNER:
         return results
     
     def _deduplicate_entities(self, entities: List[Dict]) -> List[Dict]:
-        """
-        Remove duplicate entities
-        Prioritize: transformer > spacy > pattern
-        """
+
         if not entities:
             return []
         
@@ -217,26 +190,10 @@ class FinancialNER:
     
     def extract_by_type(self, text: str, 
                        entity_type: str) -> List[Dict]:
-        """
-        Extract only specific entity type
-        
-        Args:
-            text: Input text
-            entity_type: Entity type (PERSON, ORG, MONEY, etc.)
-            
-        Returns:
-            List of entities of specified type
-        """
         all_entities = self.extract_entities(text)
         return [e for e in all_entities if e['label'].upper() == entity_type.upper()]
     
     def get_entity_summary(self, text: str) -> Dict:
-        """
-        Get summary of all entities in text
-        
-        Returns:
-            Dictionary with entity counts by type
-        """
         entities = self.extract_entities(text)
         
         summary = defaultdict(list)
@@ -255,12 +212,7 @@ class FinancialNER:
         return result
     
     def extract_financial_metrics(self, text: str) -> Dict:
-        """
-        Extract financial metrics with their values
-        
-        Returns:
-            Dictionary mapping metrics to values
-        """
+
         metrics = {}
         
         # Extract all entities
@@ -280,16 +232,7 @@ class FinancialNER:
         return metrics
     
     def visualize_entities(self, text: str, max_length: int = 500) -> str:
-        """
-        Create a simple text visualization of entities
-        
-        Args:
-            text: Input text
-            max_length: Maximum text length to display
-            
-        Returns:
-            Formatted string with highlighted entities
-        """
+
         entities = self.extract_entities(text)
         
         # Truncate text if too long

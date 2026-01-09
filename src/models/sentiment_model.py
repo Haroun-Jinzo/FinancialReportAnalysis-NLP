@@ -1,8 +1,3 @@
-"""
-Financial Sentiment Analysis Module
-Analyzes sentiment in financial texts using FinBERT
-"""
-
 from typing import List, Dict, Optional, Tuple
 from collections import Counter
 import numpy as np
@@ -18,10 +13,6 @@ except ImportError:
 
 
 class FinancialSentiment:
-    """
-    Financial sentiment analyzer using FinBERT
-    Trained specifically on financial texts
-    """
     
     def __init__(self):
         """Initialize sentiment analyzer"""
@@ -29,7 +20,7 @@ class FinancialSentiment:
         
         # Load FinBERT model
         self.loader = ModelLoader()
-        self.model_data = self.loader.load_model('sentiment')
+        self.model_data = self.loader.load_model('sentiment_finetuned')
         self.pipeline = self.model_data['pipeline']
         
         # Sentiment labels mapping
@@ -191,16 +182,6 @@ class FinancialSentiment:
     
     def get_overall_sentiment(self, text: str, 
                              method: str = 'weighted') -> Dict:
-        """
-        Get overall sentiment of document
-        
-        Args:
-            text: Input text
-            method: 'weighted' or 'majority'
-            
-        Returns:
-            Overall sentiment analysis
-        """
         sentence_sentiments = self.analyze_sentences(text)
         
         if not sentence_sentiments:
@@ -244,15 +225,6 @@ class FinancialSentiment:
         }
     
     def compare_sentiments(self, texts: List[str]) -> Dict:
-        """
-        Compare sentiment across multiple texts
-        
-        Args:
-            texts: List of texts to compare
-            
-        Returns:
-            Comparison results
-        """
         results = []
         
         for i, text in enumerate(texts):
@@ -279,16 +251,6 @@ class FinancialSentiment:
     
     def extract_sentiment_phrases(self, text: str, 
                                   sentiment_type: str = 'positive') -> List[Dict]:
-        """
-        Extract phrases with specific sentiment
-        
-        Args:
-            text: Input text
-            sentiment_type: 'positive', 'negative', or 'neutral'
-            
-        Returns:
-            List of phrases with that sentiment
-        """
         sentence_sentiments = self.analyze_sentences(text)
         
         matching_phrases = []
@@ -305,17 +267,7 @@ class FinancialSentiment:
         return matching_phrases
     
     def sentiment_timeline(self, texts: List[str], 
-                          labels: Optional[List[str]] = None) -> Dict:
-        """
-        Analyze sentiment over time (for sequential documents)
-        
-        Args:
-            texts: List of texts in chronological order
-            labels: Optional labels for each text (e.g., dates)
-            
-        Returns:
-            Timeline data
-        """
+                          labels: Optional[List[str]] = None) -> Dict: # nemchou bel chronological order
         if labels is None:
             labels = [f"Doc {i+1}" for i in range(len(texts))]
         

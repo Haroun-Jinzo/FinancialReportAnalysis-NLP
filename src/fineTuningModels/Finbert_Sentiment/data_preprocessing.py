@@ -17,14 +17,14 @@ class FinancialSentimentDataset(Dataset):
         self.tokenizer = tokenizer
         self.max_length = max_length
 
-        level_mapping = {
+        self.label_map = {
             'positive': 0,
             'negative': 1,
             'neutral': 2
         }
 
         # reverse mapping for predictions
-        self.level_mapping_rev = {v: k for k, v in level_mapping.items()}
+        self.id_to_label = {v: k for k, v in self.label_map.items()}
 
     def __len__(self):
         return len(self.texts)

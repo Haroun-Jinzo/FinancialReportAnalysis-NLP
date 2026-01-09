@@ -285,22 +285,13 @@ class DocumentParser:
             return ""
     
     def extract_financial_tables(self, parsed_doc: Dict) -> List[pd.DataFrame]:
-        """
-        Extract tables that look like financial statements
-        
-        Args:
-            parsed_doc: Output from parse()
-            
-        Returns:
-            List of financial tables
-        """
         financial_tables = []
         
         # Keywords that indicate financial tables
         financial_keywords = [
             'revenue', 'income', 'profit', 'loss', 'assets', 'liabilities',
             'equity', 'cash flow', 'balance sheet', 'statement', 'quarter',
-            'fiscal', 'earnings', 'expenses', 'cost'
+            'fiscal', 'earnings', 'expenses', 'cost', 'tax', 'capital', 'banking', 'investment', 'social security', 'stock market'
         ]
         
         for table_info in parsed_doc.get('tables', []):
@@ -316,13 +307,10 @@ class DocumentParser:
             if any(keyword in table_text for keyword in financial_keywords):
                 financial_tables.append(df)
         
-        print(f"  ℹ Found {len(financial_tables)} financial tables")
+        print(f" Found {len(financial_tables)} financial tables")
         return financial_tables
     
     def get_document_summary(self, parsed_doc: Dict) -> Dict:
-        """
-        Generate summary statistics about parsed document
-        """
         summary = {
             'filename': parsed_doc.get('filename'),
             'format': parsed_doc.get('format'),
@@ -339,12 +327,7 @@ class DocumentParser:
 # Example usage and testing
 if __name__ == "__main__":
     parser = DocumentParser(enable_ocr=True)
-    
-    # Example: Parse a PDF
-    # result = parser.parse("data/raw/financial_report.pdf")
-    # print(result.keys())
-    # print(parser.get_document_summary(result))
-    
+
     print("Document Parser Module Ready!")
     print(f"Supported formats: {parser.supported_formats}")
     print(f"OCR enabled: {parser.enable_ocr}")

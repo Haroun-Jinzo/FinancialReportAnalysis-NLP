@@ -20,18 +20,8 @@ except LookupError:
 
 
 class TextCleaner:
-    """
-    Clean and preprocess text for NLP analysis
-    Preserves financial information while removing noise
-    """
 
     def __init__(self, language: str = 'english'):
-        """
-        Initialize text cleaner
-        
-        Args:
-            language: Language for stopwords and processing
-        """
         self.language = language
         self.stop_words = set(stopwords.words(language))
         self.lemmatizer = WordNetLemmatizer()
@@ -49,7 +39,7 @@ class TextCleaner:
             'assets', 'liabilities', 'equity', 'debt', 'cash', 'flow',
             'margin', 'quarter', 'fiscal', 'year', 'growth', 'decline',
             'eps', 'roe', 'roi', 'ratio', 'million', 'billion', 'increase',
-            'decrease', 'market', 'share', 'stock', 'dividend'
+            'decrease', 'market', 'share', 'stock', 'dividend', 'budget', 'loans'
         }
 
         # Patterns for financial entities (preserve these)
@@ -65,20 +55,7 @@ class TextCleaner:
               lowercase: bool = True,
               remove_numbers: bool = False,
               preserve_financial: bool = True) -> str:
-        """
-        Main cleaning function
-        
-        Args:
-            text: Input text
-            remove_stopwords: Remove common words
-            lemmatize: Convert words to base form
-            lowercase: Convert to lowercase
-            remove_numbers: Remove numeric values
-            preserve_financial: Keep financial terms and numbers
-            
-        Returns:
-            Cleaned text
-        """
+
         if not text or not isinstance(text, str):
             return""
         
@@ -127,17 +104,13 @@ class TextCleaner:
         return text
     
     def _normalize_unicode(self, text: str) -> str:
-        """Normalize unicode characters"""
+
         # Convert to NFKD form and encode/decode to remove accents
         text = unicodedata.normalize('NFKD', text)
         text = text.encode('ascii', 'ignore').decode('utf-8')
         return text
     
     def _protect_financial_entities(self, text: str) -> tuple:
-        """
-        Replace financial entities with placeholders
-        Returns: (modified_text, mapping_dict)
-        """
         protected = {}
         counter = 0
         
@@ -182,28 +155,14 @@ class TextCleaner:
         return text
     
     def extract_sentences(self, text: str) -> List[str]:
-        """
-        Extract sentences from text
-        
-        Returns:
-            List of sentences
-        """
+
         sentences = sent_tokenize(text)
         # Clean each sentence
         sentences = [s.strip() for s in sentences if s.strip()]
         return sentences
     
     def extract_keywords(self, text: str, top_n: int = 20) -> List[tuple]:
-        """
-        Extract important keywords using TF-IDF-like approach
-        
-        Args:
-            text: Input text
-            top_n: Number of top keywords to return
-            
-        Returns:
-            List of (word, score) tuples
-        """
+
         from collections import Counter
         
         # Clean and tokenize
@@ -228,18 +187,7 @@ class TextCleaner:
     
     def chunk_text(self, text: str, chunk_size: int = 500, 
                    overlap: int = 50) -> List[str]:
-        """
-        Split text into overlapping chunks for processing
-        Useful for long documents with token limits
-        
-        Args:
-            text: Input text
-            chunk_size: Size of each chunk in words
-            overlap: Overlap between chunks
-            
-        Returns:
-            List of text chunks
-        """
+ 
         words = text.split()
         chunks = []
         
@@ -253,9 +201,7 @@ class TextCleaner:
         return chunks
     
     def remove_boilerplate(self, text: str) -> str:
-        """
-        Remove common boilerplate text from financial documents
-        """
+
         boilerplate_patterns = [
             r'This document contains forward-looking statements.*?(?=\n\n|\Z)',
             r'Page \d+ of \d+',
@@ -270,12 +216,7 @@ class TextCleaner:
         return text
     
     def extract_financial_numbers(self, text: str) -> List[Dict]:
-        """
-        Extract all financial numbers with context
-        
-        Returns:
-            List of dicts with number, unit, and context
-        """
+
         numbers = []
         
         # Pattern for money values
@@ -305,12 +246,7 @@ class TextCleaner:
         return numbers
     
     def is_financial_text(self, text: str) -> bool:
-        """
-        Check if text is financial-related
-        
-        Returns:
-            True if text contains financial keywords
-        """
+
         text_lower = text.lower()
         
         # Count financial keywords

@@ -7,6 +7,9 @@ from datetime import datetime
 from dataclasses import dataclass
 from collections import Counter
 
+import matplotlib.pyplot as plt
+import seaborn as sns
+
 import numpy as np
 import pandas as pd
 import torch
@@ -34,7 +37,7 @@ sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
 from models.model_loader import ModelLoader
 from data_preprocessing import FinancialSentimentDataset
-from compute_metrics import LoggingCallback
+from compute_metrics import LoggingCallback, compute_metrics
 
 # Configure logger
 logger = logging.getLogger(__name__)
@@ -79,71 +82,85 @@ class FinbertFineTuner:
         else:
             raise ValueError(f"Unsupported file format: {data_file}")
         
-        # extract Text and Labels
+        # Extract texts and labels
         texts = df[text_column].astype(str).tolist()
-        labels = df[label_column].astype(str).tolist()
-
-        # validate labels
+        labels = df[label_column].astype(str).str.lower().tolist()
+        
+        # CRITICAL: Clean data - remove rows with missing values
+        logger.info(f"Initial data: {len(texts)} texts, {len(labels)} labels")
+        
+        # Create pairs and filter out invalid ones
+        valid_pairs = []
+        for text, label in zip(texts, labels):
+            # Remove if text or label is missing/empty/nan
+            if (text and label and 
+                text.strip() and label.strip() and
+                text.lower() not in ['nan', 'none', ''] and 
+                label.lower() not in ['nan', 'none', '']):
+                valid_pairs.append((text.strip(), label.strip()))
+        
+        if not valid_pairs:
+            raise ValueError("No valid data after cleaning! Check your CSV file.")
+        
+        # Unzip back to separate lists
+        texts, labels = zip(*valid_pairs)
+        texts = list(texts)
+        labels = list(labels)
+        
+        logger.info(f"After cleaning: {len(texts)} valid examples")
+        if len(valid_pairs) < len(df):
+            removed = len(df) - len(valid_pairs)
+            logger.warning(f"⚠️  Removed {removed} rows with missing/invalid data")
+        
+        # Validate labels
         valid_labels = {'positive', 'negative', 'neutral'}
         unique_labels = set(labels)
-        if unique_labels - valid_labels:
-            raise ValueError(f"Invalid labels found: {unique_labels - valid_labels}")
+        invalid = unique_labels - valid_labels
+        if invalid:
+            raise ValueError(f"Invalid labels found: {invalid}. Must be: {valid_labels}")
         
-        logger.info(f"Loaded {len(texts)} examples")
+        logger.info(f"Final: {len(texts)} examples")
         logger.info(f"Label distribution:\n{pd.Series(labels).value_counts()}")
-
-        #if balance_classes:
-         #   text, labels = self._balance_classes(texts, labels)
-          ## logger.info(f"Balanced distribution:\n{pd.Series(labels).value_counts()}")
-
-        # split data
-        # first train vs (val + test)
-        train_texts, temp_texts, train_labels, temp_labels = train_test_split(
-            texts, labels, test_size=(test_size + val_size), stratify=labels, random_state=42)
         
-        # second val vs test
+        # Balance classes if requested
+        #if balance_classes:
+         #   texts, labels = self._balance_classes(texts, labels)
+          #  logger.info(f"After balancing: {len(texts)} examples")
+           # logger.info(f"Balanced distribution:\n{pd.Series(labels).value_counts()}")
+        
+        # Split data
+        # First: train vs (val+test)
+        train_texts, temp_texts, train_labels, temp_labels = train_test_split(
+            texts, labels,
+            test_size=(val_size + test_size),
+            random_state=42,
+            stratify=labels
+        )
+        
+        # Second: val vs test
+        val_size_adjusted = val_size / (val_size + test_size)
         val_texts, test_texts, val_labels, test_labels = train_test_split(
-            temp_texts, temp_labels, test_size=test_size / (test_size + val_size), stratify=temp_labels, random_state=42)
+            temp_texts, temp_labels,
+            test_size=(1 - val_size_adjusted),
+            random_state=42,
+            stratify=temp_labels
+        )
         
         logger.info(f"Split sizes - Train: {len(train_texts)}, Val: {len(val_texts)}, Test: {len(test_texts)}")
-
+        
+        # Validate splits
+        if len(train_texts) == 0:
+            raise ValueError("Training set is empty after splitting!")
+        if len(val_texts) == 0:
+            logger.warning("⚠️  Validation set is empty - consider increasing val_size")
+        if len(test_texts) == 0:
+            logger.warning("⚠️  Test set is empty - consider increasing test_size")
+        
         return {
             'train': {'texts': train_texts, 'labels': train_labels},
             'val': {'texts': val_texts, 'labels': val_labels},
             'test': {'texts': test_texts, 'labels': test_labels}
         }
-    
-    def _balance_classes(self, texts: List[str], labels: List[str]) -> Tuple[List[str], List[str]]:
-        #Undersample majority, oversample minority to median count
-
-        label_counts = Counter(labels)
-        median_count = sorted(label_counts.values())[len(label_counts)//2]
-
-        label_groups = {label: [] for label in label_counts.keys()}
-        for text, label in zip(texts, labels):
-            label_groups[label].append(text)
-
-        balanced_texts = []
-        balanced_labels = []
-
-        for label, group_texts in label_groups.items():
-            count = len(group_texts)
-
-            if count > median_count:
-                sampled = np.random.choice(group_texts, median_count, replace=False)
-            else:
-                sampled = np.random.choice(group_texts, median_count, replace=True)
-
-            balanced_texts.extend(sampled)
-            balanced_labels.extend([label] * len(sampled))
-
-        # Shuffle balanced data
-        combined = list(zip(balanced_texts, balanced_labels))
-        np.random.shuffle(combined)
-        balanced_texts, balanced_labels = zip(*combined)
-        
-        return list(balanced_texts), list(balanced_labels)
-    
 
     def Fine_Tune(self, data_splits: Dict,
                   num_epochs: int = 4,
@@ -164,10 +181,11 @@ class FinbertFineTuner:
         
         logger.info("Loading FinBERT model and tokenizer...")
         # Load FinBERT model
-        self.loader = ModelLoader()
-        self.model = self.loader.load_model('sentiment')
+        self.tokenizer = AutoTokenizer.from_pretrained('ProsusAI/finbert')
+        self.model = AutoModelForSequenceClassification.from_pretrained('ProsusAI/finbert', num_labels=3,
+                                                                         problem_type="single_label_classification")
 
-        #self.model.to(self.device)
+        self.model.to(self.device)
 
 
         logger.info("load datasets...")
@@ -197,7 +215,7 @@ class FinbertFineTuner:
             gradient_accumulation_steps=gradient_accumulation_steps,
 
             # Evaluation strategy
-            evaluation_strategy="steps",
+            eval_strategy="steps",
             eval_steps=100,
             save_strategy="steps",
             save_steps=100,
@@ -222,16 +240,18 @@ class FinbertFineTuner:
 
         # create Trainer
         log_file = self.output_dir / 'training.log'
+        has_val_data = len(val_dataset) > 0
 
         self.trainer = Trainer(
             model=self.model,
             args=training_args,
             train_dataset=train_dataset,
-            compute_metrics=self.compute_metrics,
-            callbacks=[
-                EarlyStoppingCallback(early_stopping_patience=3),
-                LoggingCallback(str(log_file))
-                ]
+            eval_dataset=val_dataset if has_val_data else None,
+            compute_metrics=compute_metrics if has_val_data else None,
+            #callbacks=[
+             #   EarlyStoppingCallback(early_stopping_patience=3),
+              #  LoggingCallback(str(log_file))
+               #]
         )
 
         #train
@@ -356,8 +376,21 @@ class FinbertFineTuner:
         
         return results
     
+    def _plot_confusion_matrix(self, cm: np.ndarray, labels: List[str]):
+        """Plot and save confusion matrix"""
+        plt.figure(figsize=(10, 8))
+        sns.heatmap(cm, annot=True, fmt='d', cmap='Blues',
+                    xticklabels=labels, yticklabels=labels)
+        plt.title('Confusion Matrix - Test Set')
+        plt.ylabel('True Label')
+        plt.xlabel('Predicted Label')
+        plt.tight_layout()
+        plt.savefig(self.output_dir / 'confusion_matrix.png', dpi=300)
+        plt.close()
+        logger.info(f"Confusion matrix saved to {self.output_dir / 'confusion_matrix.png'}")
 
-    def test_on_example(self, examples: List[str]) -> List[Dict]:
+
+    def test_on_examples(self, examples: List[str]) -> List[Dict]:
         if self.model is None or self.tokenizer is None:
             logger.error("Model and tokenizer not loaded. Please load a trained model first.")
             return []
@@ -434,11 +467,14 @@ def main():
     # Step 4: Test on examples
     print("\n🧪 Step 4: Testing on example sentences...")
     examples = [
-        "Revenue increased 25% year-over-year, significantly exceeding expectations",
-        "The company reported major losses and declining market share",
-        "Operations continued as planned throughout the quarter",
-        "Strong iPhone sales drove record quarterly profits",
-        "Facing significant challenges due to economic headwinds"
+        "Revenue surged 45% year-over-year, crushing analyst expectations",
+        "Stock plummeted 30% after catastrophic earnings miss",
+        "Company announces routine board meeting scheduled for next month",
+        "Revenue grew modestly despite challenging market conditions",
+        "Beat earnings expectations but lowered full-year guidance",
+        "Losses were not as bad as feared by analysts",
+        "Q4 EPS of $2.45 beats consensus estimate of $2.20 by 11%",
+        "Goldman Sachs upgrades to Buy with $180 price target"
     ]
     
     predictions = finetuner.test_on_examples(examples)
@@ -448,7 +484,7 @@ def main():
     print("="*70)
     for pred in predictions:
         print(f"\nText: {pred['text']}")
-        print(f"Prediction: {pred['prediction'].upper()} (confidence: {pred['confidence']:.2%})")
+        print(f"Prediction: {pred['predicted_label'].upper()} (confidence: {pred['confidence']:.2%})")
         print(f"Probabilities:")
         for label, prob in pred['probabilities'].items():
             print(f"  {label:8s}: {prob:.2%}")

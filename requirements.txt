@@ -60,6 +60,15 @@ pytest-cov==4.1.0
 # Logging
 loguru==0.7.2
 
+#backend
+fastapi
+uvicorn
+python-multipart
+
+#Interface
+streamlit==1.29.0
+streamlit-aggrid==0.3.4.post3
+
 # Optional: For GPU support (if available)
 # torch==2.1.0+cu118  # CUDA 11.8
 # Install from: https://pytorch.org/get-started/locally/

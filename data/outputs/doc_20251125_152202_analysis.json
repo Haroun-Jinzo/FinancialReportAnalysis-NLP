@@ -1,0 +1,148 @@
+{
+  "document_id": "doc_20251125_152202",
+  "timestamp": "2025-11-25T15:22:10.737102",
+  "processing_time": 8.173559,
+  "status": "completed",
+  "document": {
+    "format": "txt",
+    "text_length": 459,
+    "is_financial": true
+  },
+  "nlp": {
+    "entities_count": 0,
+    "sentiment": "NEUTRAL",
+    "sentiment_confidence": 1.0,
+    "summary": "Netincomewa reported strong financial results for the first quarter of 2014. The company's revenue was up 6 percent year-over-year.",
+    "key_facts": {
+      "growth": {
+        "value": "Up__percentage_6",
+        "confidence": 0.36274194717407227
+      }
+    }
+  },
+  "extraction": {
+    "total_entities": 0,
+    "entity_types": {},
+    "metrics_count": 0,
+    "relations_count": 0,
+    "patterns_count": 1
+  },
+  "analysis": {
+    "risk_level": "LOW",
+    "risk_score": 0,
+    "risks_found": 0
+  },
+  "insights": {
+    "total": 0,
+    "by_type": {},
+    "top_insights": []
+  },
+  "detailed_results": {
+    "parsed": {
+      "filename": "test_financial_report.txt",
+      "format": "txt",
+      "text": "\n    FINANCIAL REPORT - Q3 2024\n    \n    Executive Summary\n    The company reported strong financial results for Q3 2024.\n    Revenue reached $125 million, up 18% year-over-year.\n    Net income was $32.5 million with EPS of $2.15.\n    \n    Key Metrics:\n    - Revenue: $125M\n    - Net Income: $32.5M  \n    - Operating Margin: 26%\n    - EPS: $2.15\n    \n    The strong performance was driven by increased demand and \n    operational efficiency improvements.\n    ",
+      "lines": [
+        "",
+        "    FINANCIAL REPORT - Q3 2024",
+        "    ",
+        "    Executive Summary",
+        "    The company reported strong financial results for Q3 2024.",
+        "    Revenue reached $125 million, up 18% year-over-year.",
+        "    Net income was $32.5 million with EPS of $2.15.",
+        "    ",
+        "    Key Metrics:",
+        "    - Revenue: $125M",
+        "    - Net Income: $32.5M  ",
+        "    - Operating Margin: 26%",
+        "    - EPS: $2.15",
+        "    ",
+        "    The strong performance was driven by increased demand and ",
+        "    operational efficiency improvements.",
+        "    "
+      ]
+    },
+    "preprocessed": {
+      "raw_text": "\n    FINANCIAL REPORT - Q3 2024\n    \n    Executive Summary\n    The company reported strong financial results for Q3 2024.\n    Revenue reached $125 million, up 18% year-over-year.\n    Net income was $32.5 million with EPS of $2.15.\n    \n    Key Metrics:\n    - Revenue: $125M\n    - Net Income: $32.5M  \n    - Operating Margin: 26%\n    - EPS: $2.15\n    \n    The strong performance was driven by increased demand and \n    operational efficiency improvements.\n    ",
+      "clean_text": "financialreport-__date_8__executivesummarythecompanyreportedstrongfinancialresultfor__date_9__.revenuereached__money_0__million,up__percentage_6__year-over-year.netincomewa__money_1__millionwithepsof__money_2__.keymetric-revenue__money_3__-netincome__money_4__-operatingmargin__percentage_7__-eps__money_5__thestrongperformancewadrivenbyincreaseddemandandoperationalefficiencyimprovement.",
+      "keywords": [],
+      "sentences": [
+        "financialreport-__date_8__executivesummarythecompanyreportedstrongfinancialresultfor__date_9__.revenuereached__money_0__million,up__percentage_6__year-over-year.netincomewa__money_1__millionwithepsof__money_2__.keymetric-revenue__money_3__-netincome__money_4__-operatingmargin__percentage_7__-eps__money_5__thestrongperformancewadrivenbyincreaseddemandandoperationalefficiencyimprovement."
+      ],
+      "is_financial": true
+    },
+    "nlp": {
+      "entities": [],
+      "sentiment": {
+        "overall_sentiment": "NEUTRAL",
+        "confidence": 1.0,
+        "sentence_breakdown": {
+          "POSITIVE": 0,
+          "NEGATIVE": 0,
+          "NEUTRAL": 1
+        },
+        "total_sentences": 1
+      },
+      "summary": {
+        "overview": "Netincomewa reported strong financial results for the first quarter of 2014. The company's revenue was up 6 percent year-over-year.",
+        "main_summary": "Netincomewa reported strong financial results for the first quarter of 2014. The company's revenue was up 6 percent year-over-year. The strong performance was driven by increased demand. The firm's stock price was up 2.5 percent.",
+        "key_points": [
+          "financialreport-__date_8__executivesummarythecompanyreportedstrongfinancialresultfor__date_9__.revenuereached__money_0__million,up__percentage_6__year-over-year.netincomewa__money_1__millionwithepsof__money_2__.keymetric-revenue__money_3__-netincome__money_4__-operatingmargin__percentage_7__-eps__money_5__thestrongperformancewadrivenbyincreaseddemandandoperationalefficiencyimprovement."
+        ],
+        "word_count": 35
+      },
+      "key_facts": {
+        "growth": {
+          "value": "Up__percentage_6",
+          "confidence": 0.36274194717407227
+        }
+      }
+    },
+    "extraction": {
+      "entities": {
+        "entities": [],
+        "metrics": {},
+        "relations": [],
+        "metadata": {
+          "total_entities": 0,
+          "entity_types": {},
+          "metrics_found": 0,
+          "relations_found": 0
+        }
+      },
+      "metrics": {
+        "income_statement": [],
+        "balance_sheet": [],
+        "per_share": [],
+        "margin": [],
+        "ratios": []
+      },
+      "relations": [],
+      "patterns": {
+        "year_over_year": [
+          {
+            "pattern_name": "year_over_year",
+            "matched_text": "year-over-year",
+            "start": 146,
+            "end": 160,
+            "groups": {},
+            "confidence": 0.85
+          }
+        ]
+      }
+    },
+    "analysis": {
+      "risks": [],
+      "risk_score": {
+        "total_score": 0,
+        "risk_level": "LOW",
+        "risk_count": 0
+      }
+    },
+    "insights": {
+      "insights": [],
+      "count": 0,
+      "by_type": {}
+    }
+  }
+}
