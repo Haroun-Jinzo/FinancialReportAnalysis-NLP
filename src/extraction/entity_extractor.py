@@ -16,12 +16,7 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 from models.ner_model import FinancialNER 
 
 
-class EntityExtractor:
-    """
-    Advanced entity extraction system
-    Extracts and structures financial entities with metadata
-    """
-    
+class EntityExtractor:   
     def __init__(self):
         """Initialize entity extractor"""
         print("Initializing Entity Extractor...")
@@ -73,16 +68,6 @@ class EntityExtractor:
     
     def extract(self, text: str, 
                 extract_relations: bool = True) -> Dict:
-        """
-        Main extraction function
-        
-        Args:
-            text: Input text
-            extract_relations: Also extract relationships
-            
-        Returns:
-            Dictionary with all extracted information
-        """
         result = {
             'entities': [],
             'metrics': {},

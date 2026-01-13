@@ -1,0 +1,17 @@
+services:
+  financial-analyst:
+    image: financial-analyst
+    container_name: finance-app
+    ports:
+      - "8000:8000"  # API
+      - "8501:8501"  # Streamlit
+    volumes:
+      # Maps your local data folder to the container
+      # This ensures PDFs you drop in 'data/documents' are seen by the app
+      - ./data:/app/data
+      # Maps your local models folder so you don't redownload them every time
+      - ./fineTuning:/app/fineTuning
+    # The fixed command to start both services
+    command: >
+      /bin/bash -c "uvicorn src.API.api:app --host 0.0.0.0 --port 8000 --workers 1 & 
+      streamlit run src/streamlit_app/app.py --server.port 8501 --server.address 0.0.0.0"

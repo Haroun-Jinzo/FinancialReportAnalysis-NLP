@@ -33,54 +33,6 @@ class AnalysisAgent:
         logger.info("✓ Analysis Agent ready")
     
     def analyze_trends(self, documents: list, metrics: list = None) -> dict:
-        """
-        Analyze how metrics change over time
-        
-        Use this when you have multiple documents from different periods
-        and want to see if things are getting better or worse.
-        
-        Args:
-            documents: List of documents, each with 'period' and 'text'
-                      Example: [
-                          {'period': 'Q1 2024', 'text': 'Revenue $85B...'},
-                          {'period': 'Q2 2024', 'text': 'Revenue $88B...'},
-                          {'period': 'Q3 2024', 'text': 'Revenue $90B...'}
-                      ]
-            metrics: Which metrics to analyze (optional)
-                    Example: ['revenue', 'net_income', 'eps']
-                    Default: ['revenue', 'net_income', 'eps']
-        
-        Returns:
-            Dictionary with trend information:
-            {
-                'trends': {
-                    'revenue': {
-                        'direction': 'INCREASING',  # INCREASING, DECREASING, STABLE
-                        'strength': 0.95,           # 0-1 (how consistent)
-                        'average': 87666666666.67,
-                        'forecast': 92000000000,    # Next period prediction
-                        'data': [...]               # Historical data points
-                    }
-                },
-                'summary': {
-                    'improving': ['revenue'],
-                    'declining': [],
-                    'stable': []
-                }
-            }
-        
-        Example:
-            docs = [
-                {'period': 'Q1', 'text': 'Revenue $85B'},
-                {'period': 'Q2', 'text': 'Revenue $88B'},
-                {'period': 'Q3', 'text': 'Revenue $90B'}
-            ]
-            
-            result = agent.analyze_trends(docs, ['revenue'])
-            
-            if result['trends']['revenue']['direction'] == 'INCREASING':
-                print("📈 Revenue is going up!")
-        """
         logger.info(f"📈 Analyzing trends ({len(documents)} documents)")
         
         # Use default metrics if none specified
@@ -129,45 +81,6 @@ class AnalysisAgent:
         }
     
     def analyze_risks(self, text: str, detailed: bool = True) -> dict:
-        """
-        Identify financial risks in the document
-        
-        Use this to find out what could go wrong based on what's written
-        in the document. It looks for risk keywords and patterns.
-        
-        Args:
-            text: The document text to analyze
-            detailed: If True, includes full risk descriptions
-                     If False, just shows counts and levels
-        
-        Returns:
-            Dictionary with risk information:
-            {
-                'risk_level': 'HIGH',           # LOW, MEDIUM, HIGH, CRITICAL
-                'risk_score': 67.5,             # 0-100
-                'total_risks': 5,
-                'by_severity': {
-                    'HIGH': 2,
-                    'MEDIUM': 3,
-                    'LOW': 0
-                },
-                'by_category': {
-                    'MARKET_RISK': 2,
-                    'OPERATIONAL_RISK': 1,
-                    'FINANCIAL_RISK': 2
-                },
-                'risks': [...]  # Detailed list (if detailed=True)
-            }
-        
-        Example:
-            text = "The company faces significant market volatility..."
-            
-            risks = agent.analyze_risks(text)
-            
-            if risks['risk_level'] == 'HIGH':
-                print("⚠️  High risk detected!")
-                print(f"Total risks: {risks['total_risks']}")
-        """
         logger.info("⚠️  Analyzing risks")
         
         # Find all risks in the text
@@ -203,35 +116,6 @@ class AnalysisAgent:
         return results
     
     def analyze_sentiment(self, text: str) -> dict:
-        """
-        Analyze the sentiment (tone) of the document
-        
-        Determines if the document is positive (good news), negative (bad news),
-        or neutral. Useful for understanding the overall tone.
-        
-        Args:
-            text: Document text to analyze
-        
-        Returns:
-            Dictionary with sentiment information:
-            {
-                'sentiment': 'POSITIVE',        # POSITIVE, NEGATIVE, NEUTRAL
-                'confidence': 0.85,             # 0-1 (how confident)
-                'breakdown': {
-                    'POSITIVE': 10,  # Number of positive sentences
-                    'NEGATIVE': 2,   # Number of negative sentences
-                    'NEUTRAL': 5     # Number of neutral sentences
-                }
-            }
-        
-        Example:
-            text = "Revenue exceeded expectations. Strong growth continues."
-            
-            sentiment = agent.analyze_sentiment(text)
-            
-            print(f"Sentiment: {sentiment['sentiment']}")
-            # Output: Sentiment: POSITIVE
-        """
         logger.info("😊 Analyzing sentiment")
         
         # Get overall sentiment from analyzer
@@ -248,44 +132,7 @@ class AnalysisAgent:
         return result
     
     def compare_documents(self, doc1: dict, doc2: dict, analysis_type: str = "comprehensive") -> dict:
-        """
-        Compare two documents side-by-side
         
-        Use this to see which document/company is performing better.
-        
-        Args:
-            doc1: First document with 'name', 'text', and 'period'
-                 Example: {'name': 'Apple', 'text': '...', 'period': 'Q3 2024'}
-            doc2: Second document (same format)
-            analysis_type: What to compare:
-                          - 'comprehensive': Everything
-                          - 'metrics': Just numbers
-                          - 'sentiment': Just tone
-        
-        Returns:
-            Dictionary with comparison:
-            {
-                'metrics': {
-                    'summary': {
-                        'overall_winner': 'Apple',
-                        'total_comparisons': 5
-                    }
-                },
-                'sentiment': {
-                    'entity1': 'POSITIVE',
-                    'entity2': 'NEUTRAL'
-                }
-            }
-        
-        Example:
-            apple = {'name': 'Apple', 'text': 'Revenue $90B...', 'period': 'Q3'}
-            msft = {'name': 'Microsoft', 'text': 'Revenue $62B...', 'period': 'Q3'}
-            
-            comparison = agent.compare_documents(apple, msft)
-            
-            winner = comparison['metrics']['summary']['overall_winner']
-            print(f"Winner: {winner}")
-        """
         logger.info(f"⚖️  Comparing: {doc1['name']} vs {doc2['name']}")
         
         results = {}
@@ -311,41 +158,6 @@ class AnalysisAgent:
         return results
     
     def comprehensive_analysis(self, documents: list, include_risks: bool = True, include_insights: bool = True) -> dict:
-        """
-        Run all analyses on the documents
-        
-        This is the "do everything" method. It runs:
-        - Trend analysis (if 2+ documents)
-        - Sentiment analysis for each document
-        - Risk analysis (on latest document)
-        - Insight generation (recommendations)
-        
-        Args:
-            documents: List of documents with 'period' and 'text'
-            include_risks: Include risk analysis (default: True)
-            include_insights: Generate insights (default: True)
-        
-        Returns:
-            Dictionary with all analysis results:
-            {
-                'trends': {...},          # If 2+ documents
-                'sentiment': {...},       # For all documents
-                'risks': {...},          # If include_risks=True
-                'insights': {...}        # If include_insights=True
-            }
-        
-        Example:
-            docs = [
-                {'period': 'Q1', 'text': '...'},
-                {'period': 'Q2', 'text': '...'}
-            ]
-            
-            results = agent.comprehensive_analysis(docs)
-            
-            print(f"Trends: {results['trends']['summary']}")
-            print(f"Risk Level: {results['risks']['risk_level']}")
-            print(f"Insights: {results['insights']['total']}")
-        """
         logger.info(f"🎯 Comprehensive analysis ({len(documents)} documents)")
         
         results = {}
@@ -415,42 +227,6 @@ class AnalysisAgent:
         return results
     
     def generate_insights(self, documents: list) -> dict:
-        """
-        Generate actionable insights and recommendations
-        
-        Looks at all the analysis and creates recommendations like:
-        - "Revenue is declining - investigate root causes"
-        - "High risk detected - implement mitigation plan"
-        
-        Args:
-            documents: List of documents to analyze
-        
-        Returns:
-            Dictionary with insights:
-            {
-                'total_insights': 5,
-                'by_type': {
-                    'WARNING': 2,
-                    'OPPORTUNITY': 3
-                },
-                'top_insights': [
-                    {
-                        'type': 'WARNING',
-                        'title': 'Declining Revenue',
-                        'description': 'Revenue down 5%',
-                        'impact': 'HIGH',
-                        'action_items': ['Investigate causes', ...]
-                    }
-                ]
-            }
-        
-        Example:
-            insights = agent.generate_insights(documents)
-            
-            for insight in insights['top_insights']:
-                print(f"{insight['type']}: {insight['title']}")
-                print(f"Actions: {insight['action_items']}")
-        """
         logger.info("💡 Generating insights")
         
         # Generate insights using the insight generator
@@ -484,17 +260,7 @@ class AnalysisAgent:
         
         return result
     
-    # ==================== HELPER METHODS ====================
-    
     def _summarize_trends(self, trends: dict) -> dict:
-        """
-        Create a simple summary of trends
-        
-        Takes the detailed trend data and creates lists of:
-        - improving: Metrics going up
-        - declining: Metrics going down
-        - stable: Metrics staying the same
-        """
         summary = {
             'improving': [],
             'declining': [],

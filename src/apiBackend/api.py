@@ -8,11 +8,15 @@ from datetime import datetime
 import tempfile
 import os
 import logging
+import pathlib
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 sys.path.insert(0, str(Path(__file__).parent.parent))
+
+if os.name == 'nt':  # 'nt' means Windows
+    pathlib.PosixPath = pathlib.WindowsPath
 
 from agents.document_agent import DocumentAgent
 from agents.analysis_agent import AnalysisAgent

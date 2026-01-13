@@ -32,16 +32,6 @@ FINANCIAL_ENTITIES = {
 # ==================== DATA PREPARATION ====================
 
 class NERDataConverter:
-    """
-    Convert various data formats to NER training format
-    
-    Handles:
-    - Raw text with entity annotations
-    - CoNLL format
-    - JSON format
-    - Automatic BIO tag generation
-    """
-    
     def __init__(self):
         self.entity_types = list(FINANCIAL_ENTITIES.keys())
         
@@ -58,24 +48,6 @@ class NERDataConverter:
         logger.info(f"Initialized with {len(self.labels)} labels: {self.labels[:10]}...")
     
     def convert_from_json(self, data: List[Dict]) -> List[Dict]:
-        """
-        Convert from JSON format to NER training format
-        
-        Input format:
-        {
-            "text": "Apple Inc. reported revenue of $90B",
-            "entities": [
-                {"text": "Apple Inc.", "label": "ORG", "start": 0, "end": 10},
-                {"text": "$90B", "label": "MONEY", "start": 31, "end": 35}
-            ]
-        }
-        
-        Output format:
-        {
-            "tokens": ["Apple", "Inc.", "reported", "revenue", "of", "$", "90B"],
-            "ner_tags": ["B-ORG", "I-ORG", "O", "O", "O", "B-MONEY", "I-MONEY"]
-        }
-        """
         from nltk.tokenize import word_tokenize
         
         converted = []
@@ -136,12 +108,6 @@ class NERDataConverter:
         return converted
     
     def _create_char_to_token_mapping(self, text: str, tokens: List[str]) -> Dict[int, int]:
-        """
-        Create mapping from character position to token index
-        
-        This handles the alignment between character-based entity positions
-        and token-based labels.
-        """
         mapping = {}
         current_pos = 0
         
@@ -164,18 +130,6 @@ class NERDataConverter:
     def create_training_examples(self, 
                                 financial_texts: List[str],
                                 save_to: Optional[str] = None) -> List[Dict]:
-        """
-        Create training examples from raw financial texts
-        
-        This is a TEMPLATE - you need to manually annotate entities!
-        
-        Args:
-            financial_texts: List of financial sentences
-            save_to: Optional path to save annotation template
-        
-        Returns:
-            List of examples ready for annotation
-        """
         from nltk.tokenize import word_tokenize
         
         examples = []
@@ -220,13 +174,6 @@ class FinancialNERDataset(Dataset):
                  tokenizer,
                  label2id: Dict[str, int],
                  max_length: int = 128):
-        """
-        Args:
-            examples: List of {'tokens': [...], 'ner_tags': [...]}
-            tokenizer: HuggingFace tokenizer
-            label2id: Label to ID mapping
-            max_length: Maximum sequence length
-        """
         self.examples = examples
         self.tokenizer = tokenizer
         self.label2id = label2id
@@ -298,13 +245,6 @@ class FinancialNERDataset(Dataset):
         }
     
     def _align_labels(self, tokens, ner_tags, tokenized):
-        """
-        Align labels with subword tokens
-        
-        Strategy: 
-        - First subword of a word gets the label
-        - Other subwords get -100 (ignored in loss)
-        """
         word_ids = tokenized.word_ids(batch_index=0)
         labels = []
         previous_word_idx = None

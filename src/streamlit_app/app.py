@@ -1,9 +1,13 @@
+import pathlib
 import streamlit as st
 import pandas as pd
 import plotly.express as px
 import os
 import sys
 from pathlib import Path
+
+if os.name == 'nt':  # 'nt' means Windows
+    pathlib.PosixPath = pathlib.WindowsPath
 
 # Get the project root (two levels up from streamlit_app/)
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))

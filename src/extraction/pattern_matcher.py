@@ -1,8 +1,3 @@
-"""
-Pattern Matcher
-Rule-based pattern matching for financial texts
-"""
-
 import re
 from typing import List, Dict, Pattern, Optional, Callable
 from dataclasses import dataclass
@@ -23,10 +18,6 @@ class PatternMatch:
 
 
 class PatternMatcher:
-    """
-    Flexible pattern matching system for financial documents
-    """
-    
     def __init__(self):
         """Initialize pattern matcher"""
         print("Initializing Pattern Matcher...")
@@ -174,16 +165,6 @@ class PatternMatcher:
     
     def match_all(self, text: str, 
                   pattern_names: Optional[List[str]] = None) -> Dict[str, List[PatternMatch]]:
-        """
-        Match all patterns in text
-        
-        Args:
-            text: Input text
-            pattern_names: Optional list of specific patterns to match
-            
-        Returns:
-            Dictionary of matches by pattern name
-        """
         results = {}
         
         # Determine which patterns to use

@@ -42,26 +42,10 @@ logger = logging.getLogger(__name__)
 # ==================== MAIN TRAINER CLASS ====================
 
 class FinancialNERFineTuner:
-    """
-    Complete Financial NER Fine-tuning Pipeline
-    
-    Features:
-    - Handles BIO tagging automatically
-    - Entity-level evaluation
-    - Support for custom entity types
-    - Inference on new texts
-    """
     
     def __init__(self, 
                  base_model: str = 'dslim/bert-base-NER',
                  output_dir: str = 'models/financial_ner'):
-        """
-        Initialize NER fine-tuner
-        
-        Args:
-            base_model: Base NER model to fine-tune
-            output_dir: Where to save the model
-        """
         self.base_model = base_model
         self.output_dir = Path(output_dir)
         self.output_dir.mkdir(parents=True, exist_ok=True)
@@ -85,16 +69,6 @@ class FinancialNERFineTuner:
     def load_and_prepare_data(self,
                              data_file: str,
                              format: str = 'json') -> Dict:
-        """
-        Load and prepare NER training data
-        
-        Args:
-            data_file: Path to data file
-            format: 'json', 'jsonl', or 'conll'
-        
-        Returns:
-            Dictionary with train/val/test splits
-        """
         logger.info(f"Loading data from {data_file}")
         
         if format == 'json':
@@ -145,19 +119,6 @@ class FinancialNERFineTuner:
                  batch_size: int = 16,
                  learning_rate: float = 5e-5,
                  max_length: int = 128) -> Dict:
-        """
-        Fine-tune NER model
-        
-        Args:
-            data_splits: Train/val/test data
-            num_epochs: Training epochs
-            batch_size: Batch size
-            learning_rate: Learning rate
-            max_length: Max sequence length
-        
-        Returns:
-            Training results
-        """
         logger.info("="*70)
         logger.info("STARTING FINANCIAL NER FINE-TUNING")
         logger.info("="*70)
@@ -307,17 +268,7 @@ class FinancialNERFineTuner:
         
         return config
     
-    def evaluate_on_test_set(self, data_splits: Dict, max_length: int = 128) -> Dict:
-        """
-        Evaluate on test set
-        
-        Args:
-            data_splits: Dictionary containing test data
-            max_length: Maximum sequence length
-            
-        Returns:
-            Test metrics and predictions
-        """
+    def evaluate_on_val_set(self, data_splits: Dict, max_length: int = 128) -> Dict:
         logger.info("Evaluating on test set...")
         
         test_dataset = FinancialNERDataset(
@@ -383,15 +334,6 @@ class FinancialNERFineTuner:
         return results
     
     def predict(self, text: str) -> List[Dict]:
-        """
-        Extract entities from text
-        
-        Args:
-            text: Input text
-        
-        Returns:
-            List of extracted entities
-        """
         from nltk.tokenize import word_tokenize
         
         if self.model is None:
@@ -581,9 +523,9 @@ def main():
         max_length=128
     )
     
-    # Evaluate on test set
-    print("\n📈 Step 4: Evaluating on test set...")
-    test_results = finetuner.evaluate_on_test_set(data_splits)
+    # Evaluate on val set
+    print("\n📈 Step 4: Evaluating on val set...")
+    test_results = finetuner.evaluate_on_val_set(data_splits)
     
     # Test on example sentences
     print("\n🧪 Step 5: Testing on example sentences...")

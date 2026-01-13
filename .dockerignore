@@ -1,0 +1,23 @@
+# .dockerignore
+
+# Ignore git data
+.git
+.gitignore
+
+# Ignore local virtual environments
+venv/
+.venv/
+env/
+
+# CRITICAL: Ignore large local models (download them at runtime instead!)
+data/models/*
+!fineTuning/financial_ner/
+!fineTuning/finber_custom/
+data/training/*
+*.bin
+*.pt
+*.safetensors
+
+# Ignore cache
+__pycache__/
+*.pyc

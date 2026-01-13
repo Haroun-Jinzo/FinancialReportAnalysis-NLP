@@ -4,23 +4,7 @@ import random
 from typing import List, Dict
 from copy import deepcopy
 
-"""
-Augment NER training data to improve model generalization
-
-This adds variations to make the model work on both formal and informal text
-"""
-
 def augment_ner_dataset(input_file: str, output_file: str):
-    """
-    Augment NER dataset with variations
-    
-    Creates additional training examples by:
-    1. Simplifying formal language
-    2. Adding informal variations
-    3. Changing "million" to "billion", "M", "B"
-    4. Shortening company names
-    5. Adding conversational examples
-    """
     
     print(f"📖 Loading data from: {input_file}")
     with open(input_file, 'r', encoding='utf-8') as f:

@@ -1,8 +1,3 @@
-"""
-Financial Metric Extractor
-Specialized extraction and calculation of financial metrics
-"""
-
 import re
 from typing import List, Dict, Optional, Tuple
 from dataclasses import dataclass
@@ -25,10 +20,7 @@ class FinancialMetric:
 
 
 class MetricExtractor:
-    """
-    Extract and normalize financial metrics from text
-    """
-    
+
     def __init__(self):
         """Initialize metric extractor"""
         print("Initializing Metric Extractor...")
@@ -124,16 +116,6 @@ class MetricExtractor:
     
     def extract_all_metrics(self, text: str, 
                            period: Optional[str] = None) -> Dict[str, List[FinancialMetric]]:
-        """
-        Extract all financial metrics from text
-        
-        Args:
-            text: Input text
-            period: Optional period identifier (e.g., "Q3 2024")
-            
-        Returns:
-            Dictionary of metric lists by category
-        """
         metrics_by_category = {
             'income_statement': [],
             'balance_sheet': [],
@@ -231,12 +213,6 @@ class MetricExtractor:
         return None
     
     def extract_growth_metrics(self, text: str) -> List[Dict]:
-        """
-        Extract growth and change metrics
-        
-        Returns:
-            List of growth/change dictionaries
-        """
         changes = []
         
         for change_type, pattern in self.change_patterns.items():
@@ -266,15 +242,6 @@ class MetricExtractor:
         return changes
     
     def calculate_ratios(self, metrics: Dict[str, List[FinancialMetric]]) -> Dict[str, float]:
-        """
-        Calculate financial ratios from extracted metrics
-        
-        Args:
-            metrics: Dictionary of extracted metrics by category
-            
-        Returns:
-            Dictionary of calculated ratios
-        """
         ratios = {}
         
         # Flatten metrics for easier access

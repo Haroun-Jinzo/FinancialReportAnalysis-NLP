@@ -74,15 +74,15 @@ class ModelLoader:
                     'device': 'cpu'
                 },
                 'ner_finetuned': {
-                    'name': 'models/financial_ner',
+                    'name': 'fineTuning/financial_ner',
                     'cache_dir': None,
-                    'device': 'cuda',
+                    'device': 'cpu',
                     'type': 'local'
                 },
                 'sentiment_finetuned': {
-                    'name': 'models/finbert_custom',
+                    'name': 'fineTuning/finbert_custom',
                     'cache_dir': None,
-                    'device': 'cuda',
+                    'device': 'cpu',
                     'type': 'local' 
                 }
             },
@@ -142,7 +142,7 @@ class ModelLoader:
     def _load_specific_model(self, model_type: str, model_name: str, 
                             cache_dir: Path) -> Dict:
         label_mappings = None
-        label_file = 'models/financial_ner/label_mappings.json'
+        label_file = 'fineTuning/financial_ner/label_mappings.json'
         if label_file.endswith('.json') and Path(label_file).exists():
             print("  Loading label mappings...")
             with open(label_file, 'r') as f:

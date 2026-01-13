@@ -4,11 +4,6 @@ from seqeval.metrics import precision_score, recall_score, f1_score
 # ==================== METRICS ====================
 
 def compute_ner_metrics(predictions, labels, id2label):
-    """
-    Compute NER-specific metrics using seqeval
-    
-    seqeval properly handles entity boundaries
-    """
     # Convert IDs to labels
     pred_labels = []
     true_labels = []

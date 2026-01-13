@@ -1,8 +1,3 @@
-"""
-Relation Extractor
-Extracts relationships between financial entities
-"""
-
 import re
 from typing import List, Dict, Optional, Tuple
 from dataclasses import dataclass
@@ -25,10 +20,6 @@ class Relation:
 
 
 class RelationExtractor:
-    """
-    Extract semantic relationships between entities
-    """
-    
     def __init__(self):
         """Initialize relation extractor"""
         print("Initializing Relation Extractor...")
@@ -133,16 +124,6 @@ class RelationExtractor:
     
     def extract_relations(self, text: str, 
                          entities: Optional[List[Dict]] = None) -> List[Relation]:
-        """
-        Extract all relations from text
-        
-        Args:
-            text: Input text
-            entities: Optional pre-extracted entities for context
-            
-        Returns:
-            List of Relation objects
-        """
         relations = []
         
         # Pattern-based extraction
@@ -287,12 +268,6 @@ class RelationExtractor:
         ]
     
     def build_knowledge_graph(self, text: str) -> Dict:
-        """
-        Build a knowledge graph from extracted relations
-        
-        Returns:
-            Dictionary representing graph structure
-        """
         relations = self.extract_relations(text)
         
         # Build graph structure

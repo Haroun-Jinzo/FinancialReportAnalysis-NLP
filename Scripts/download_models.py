@@ -1,4 +1,5 @@
 import os
+import sys
 from pathlib import Path
 from transformers import (
     AutoTokenizer,
@@ -10,6 +11,14 @@ from transformers import (
 )
 from sentence_transformers import SentenceTransformer
 import torch
+
+# Fix for huggingface_hub compatibility issues
+try:
+    from huggingface_hub import cached_download
+except ImportError:
+    # For newer versions of huggingface_hub, cached_download was moved/removed
+    # We don't need it for this script since transformers handles downloads
+    cached_download = None
 
 CACHE_DIR = Path("data/models")
 CACHE_DIR.mkdir(parents=True, exist_ok=True)
@@ -61,10 +70,6 @@ def download_model(model_name, model_class, tokenizer_class, category):
         return False
     
 def download_sentence_transformer(model_name):
-    print(f"\n{'='*60}")
-    print(f"Downloading: {model_name}")
-    print(f"Category: Embeddings")
-    print(f"{'='*60}")
 
     try:
         cache_path = CACHE_DIR / "embeddings"
@@ -85,19 +90,24 @@ def download_sentence_transformer(model_name):
         return False
     
 def main():
-    print("\n" + "="*60)
-    print("Financial NLP Agent - Model Downloader")
-    print("="*60)
-    print("\nThis will download ~2-3 GB of models. Continue? (y/n)")
+    # Skip user input in Docker/non-interactive environments
+    response = 'y'
+    if not sys.stdin.isatty():
+        # Running in non-interactive mode (e.g., Docker)
+        print("Running in non-interactive mode, proceeding with downloads...")
+        response = 'y'
+    else:
+        # Interactive mode
+        print("Download required models? (y/n): ", end="")
+        response = input().strip().lower()
     
-    response = input().strip().lower()
     if response != 'y':
         print("Download cancelled.")
         return
     
     results = {}
     
-    # 1. Named Entity Recognition (NER)
+    """# 1. Named Entity Recognition (NER)
     results['NER'] = download_model(
         model_name="dslim/bert-base-NER",
         model_class=AutoModelForTokenClassification,
@@ -112,7 +122,7 @@ def main():
         tokenizer_class=AutoTokenizer,
         category="sentiment"
     )
-    
+    """
     # 3. Question Answering
     results['QA'] = download_model(
         model_name="deepset/roberta-base-squad2",

@@ -4354,5 +4354,3675 @@
         "confidence": 1.0
       }
     ]
+  },
+  {
+    "id": "doc_20260109_155743_2270",
+    "filename": "Sample-Accounting-Income-Statement-PDF-File.pdf",
+    "path": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\5eme\\nlp\\Projet_semestriel_v2\\data\\documents\\Sample-Accounting-Income-Statement-PDF-File.pdf",
+    "status": "completed",
+    "uploaded_at": "2026-01-09T15:57:43.364244",
+    "processed_at": "2026-01-09T15:57:46.470630",
+    "metadata": {},
+    "keywords": [
+      "aofseptember30th",
+      "reconciledbalanceonseptember30th",
+      "abc",
+      "expense",
+      "equipment",
+      "inventoryequipment",
+      "archeryequip",
+      "liability",
+      "sign",
+      "productorservicereceivedbutnotyetpaid",
+      "installmentpaymentonequipment",
+      "product",
+      "andservicearenormallypaidatthetimeofpurchaseordelivery",
+      "regardlessofvalue",
+      "includethedateacquiredorpurchased",
+      "thevalue",
+      "purchasepriceoracquiredvalue",
+      "itemdescription",
+      "includetheserialnumber",
+      "ifapplicable"
+    ],
+    "entities": [
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "abc",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "abc",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "income",
+        "type": "METRIC",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "abc",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "$1,",
+        "type": "MONEY",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "$1,",
+        "type": "MONEY",
+        "confidence": 1.0
+      }
+    ]
+  },
+  {
+    "id": "doc_20260109_160622_1982",
+    "filename": "Sample-review-financials.pdf",
+    "path": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\5eme\\nlp\\Projet_semestriel_v2\\data\\documents\\Sample-review-financials.pdf",
+    "status": "completed",
+    "uploaded_at": "2026-01-09T16:06:22.304388",
+    "processed_at": "2026-01-09T16:06:45.784261",
+    "metadata": {},
+    "keywords": [
+      "inmillion",
+      "aapl",
+      "reputation",
+      "net",
+      "september30",
+      "loss",
+      "dollarinmillion",
+      "use",
+      "endingbalance",
+      "aofseptember28",
+      "quarter",
+      "personalcomputer",
+      "tablet",
+      "wholesaler",
+      "respectively",
+      "resultofoperation",
+      "amongotherthing",
+      "thecompany",
+      "september24",
+      "plantandequipment"
+    ],
+    "entities": [
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "nov3rd,__number_2__number___number_4__number_9__number___number_1__number_2439____69________number___number_24__number_2465__________6__number___number_2738__3__kb__number_2__number___number_1__number___number_1919__3__5______apple(aapl)__number_2__number_4__number___number_1__number_1979____67______-kannualreport-oct__number___number_497__8__th,__number___number___number_1__number___number_1__number_2209____4____7____number_36__number_4__number_589________704kb__number___number_2__number_2709__2__2__apple(aapl)__number_2__number_5__number_587______-kannualreport-oct__number_6__number_8__number_844______th,__number___number_1509______number_1466__8kb__number_2__number___number_532______apple(aapl)__number___number_2194__6__-kannualreport-oct__number___number_8__number_842____7__th,__number_237__7__number_2__number_7__number_860______kb__number_238__apple(aapl)__number_2__number_5__number_897______-kannualreport-oct__number___number_1__number_1__number_2323______4__st,__number___number_643__0____number___number_3574____kb__number_2__number_7__number_8__number_8__number_974__________apple(aapl)__number___number_946__5__-kannualreport-nov5th,__number___number___number_1349__3__3____number_1487__kb__number___number___number___number_1459__8__5__4__apple(aapl)__number___number_972__9__-kannualreport",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "nov5th,__number_2__number_1__number_1720______5__number___number___number_13__number_3025____6__4__kb__number_2__number___number_3492__17____apple(aapl)__number___number_427__2__-kannualreport",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "aapl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "d",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "d",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "california__number_3__number___number_697______(addressofprincipalexecutiveoffice)(zipcode)(__number_3__number_389____)__number_3__number_3__number___number___number_3266____number_3541__________-__number_3__number___number___number_1363__5______(registranttelephonenumber",
+        "type": "DATE",
+        "confidence": 1.0
+      },
+      {
+        "text": "includingareacode)securityregisteredpursuanttosection__number___number___number_3280__17____(b)oftheacttitleofeachclasstradingsymbol(s)nameofeachexchangeonwhichregisteredcommonstock,__money_0__parvaluepershareaaplthenasdaqstockmarketllc__percentage_86__notedue__number_3__number_348____thenasdaqstockmarketllc__percentage_87__notedue__number_3__number_399____thenasdaqstockmarketllc__percentage_88__notedue__number_3__number___number_1__number_1637__1______thenasdaqstockmarketllc__percentage_89__notedue__number_3__number___number_1784______thenasdaqstockmarketllc__percentage_90__notedue__number___number___number_2378____number_1__number___number_20__number_2__number_2325______5______9__thenasdaqstockmarketllc__percentage___number_1800____notedue__number_3__number_564____thenasdaqstockmarketllc__percentage_92__notedue__number_3__number_377____thenasdaqstockmarketllc__percentage___number_1__number_2442______notedue__number___number___number___number_1557__1______thenasdaqstockmarketllcsecurityregisteredpursuanttosection__number_3__number___number_3284__71____(g)oftheactnoneindicatebycheckmarkiftheregistrantisawell",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "d",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "d",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "k",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "andreferencetoparticularyear,quarter",
+        "type": "DATE",
+        "confidence": 1.0
+      },
+      {
+        "text": "agamesubscriptionserviceapplefitnesssm",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "aco-brandedcreditcard",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "acashlesspaymentservice.segmentthecompanymanagesitbusinessprimarilyonageographicbasis.thecompanyreportablesegmentconsistoftheamerica",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "europe",
+        "type": "LOC",
+        "confidence": 1.0
+      },
+      {
+        "text": "greaterchina",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "japanandrestofasiapacific.americaincludesbothnorthandsouthamerica.europeincludeseuropeancountry",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "astrongthird",
+        "type": "NORP",
+        "confidence": 1.0
+      },
+      {
+        "text": "maybeaffectedifsupplierdecidetoconcentrateontheproductionofcommoncomponentinsteadofcomponentcustomizedtomeetthecompanyrequirement.thecompanyhaenteredintoagreementforthesupplyofmanycomponenthowever",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "rd",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "d",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "arelocatedoutsidetheu.s.aaresult",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "india",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "japan",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "southkorea",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "canmateriallyadverselyaffectthecompanybusinessandsupplychain.theimpactcanbeparticularlysignificantiftheserestrictivemeasureapplytocountryandregionwherethecompanyderivesasignificantportionofitrevenueandorhasignificantsupplychainoperation.restrictivemeasurecanincreasethecostofthecompanyproductandthecomponentandrawmaterialthatgointothem",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "suchinsurancecoveragemaybeinsufficienttocoveralllossthatmayarise.globalmarketforthecompanyproductandservicearehighlycompetitiveandsubjecttorapidtechnologicalchange",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "numeroussoftwareapplicationandrelatedservice.aaresult",
+        "type": "ORG",
+        "confidence": 1.0
+      }
+    ]
+  },
+  {
+    "id": "doc_20260109_160109_497",
+    "filename": "Sample-Accounting-Income-Statement-PDF-File.pdf",
+    "path": "/app/data/documents/Sample-Accounting-Income-Statement-PDF-File.pdf",
+    "status": "completed",
+    "uploaded_at": "2026-01-09T16:01:10.044725",
+    "processed_at": "2026-01-09T16:01:13.670543",
+    "metadata": {},
+    "keywords": [
+      "aofseptember30th",
+      "reconciledbalanceonseptember30th",
+      "abc",
+      "expense",
+      "equipment",
+      "inventoryequipment",
+      "archeryequip",
+      "liability",
+      "sign",
+      "productorservicereceivedbutnotyetpaid",
+      "installmentpaymentonequipment",
+      "product",
+      "andservicearenormallypaidatthetimeofpurchaseordelivery",
+      "regardlessofvalue",
+      "includethedateacquiredorpurchased",
+      "thevalue",
+      "purchasepriceoracquiredvalue",
+      "itemdescription",
+      "includetheserialnumber",
+      "ifapplicable"
+    ],
+    "entities": [
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "abc",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "abc",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "income",
+        "type": "METRIC",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "abc",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "$1,",
+        "type": "MONEY",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "$1,",
+        "type": "MONEY",
+        "confidence": 1.0
+      }
+    ]
+  },
+  {
+    "id": "doc_20260111_222639_6157",
+    "filename": "NASDAQ_GOOG_2021.pdf",
+    "path": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\5eme\\nlp\\Projet_semestriel_v2\\data\\documents\\NASDAQ_GOOG_2021.pdf",
+    "status": "completed",
+    "uploaded_at": "2026-01-11T22:26:39.894966",
+    "processed_at": "2026-01-11T22:26:52.307856",
+    "metadata": {},
+    "keywords": [
+      "cumulative",
+      "includingteleworking",
+      "annual",
+      "scope2",
+      "businesstravelandemployeecommuting",
+      "wepurchasedenoughrenewableenergy",
+      "office",
+      "tcoe2",
+      "total",
+      "and3total",
+      "and3",
+      "label",
+      "cable",
+      "connector",
+      "electroniccomponentandmodule",
+      "opticalcomponent",
+      "electrostaticdischargecomponent",
+      "electromagneticinterferencecomponent",
+      "film",
+      "coating"
+    ],
+    "entities": [
+      {
+        "text": "basedon__money_1__billioninrenewableenergyrepresentingacommitmentofenergypurchaseforthefourthrenewableelectricitypurchasedprojectwithanexpectedcombinedapproximately__money_2__billionconsecutiveyear.inmegawatt-hours(mwh).fromcapacityofapproximately__number_1__number___number_958__9____gw.through__number___number_569__3__.__number_1__number___number_921__9____to__number_1__number_1__number_683______,wepurchasedathesetargetedinvestmenttotalofmorethan__number___number_647__6__millionmwhgobeyondourpurchaseofofrenewableenergythroughppas",
+        "type": "PERSON",
+        "confidence": 1.0
+      },
+      {
+        "text": "0%",
+        "type": "PERCENTAGE",
+        "confidence": 1.0
+      },
+      {
+        "text": "31%",
+        "type": "PERCENTAGE",
+        "confidence": 1.0
+      },
+      {
+        "text": "california",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "andmeaningthatitwadesigneddublin",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "morethan1billioncontainednearly__number_202__,__number_203__ev__number_204__cityworldwideweresunroofcontaineddataformorekilometer(__number_205__millionmile)charginglocationglobally.usingtheenvironmentalinsightthan__number_7__number_964____millionrooftopacrossworthoftransitresultperday",
+        "type": "DATE",
+        "confidence": 1.0
+      },
+      {
+        "text": "reduceglobalemission.andtrafficinformation.tool(continued)program__number___number_377____10petabytemillionoffreelyavailableimpactchallengegeospatialdataonclimateearthenginehaenabledtenin__number___number_842__6__,google.orglaunchedofthousandofactiveusertheimpactchallengeonclimate",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "waste",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "based",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "based",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "total",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "other",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "based",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "based",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "site",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "grid",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "40%",
+        "type": "PERCENTAGE",
+        "confidence": 1.0
+      },
+      {
+        "text": "43%",
+        "type": "PERCENTAGE",
+        "confidence": 1.0
+      },
+      {
+        "text": "opticalcomponent",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "andadhesive.7.backhousingonly.recycledaluminumisapproximately__percentage_50__ofenclosurebasedonweight.8.energysavingfromthenestlearningthermostatenergybillanalysisresult",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "opticalcomponent",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "based",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "based",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "wri",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "wbcsd",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "foragivenmixtureandamountofghg",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "gwp",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "wherebyonanannualbasisweassignedrenewableelectricityprocuredagainstelectricityconsumed(inmegawatt-hours)intheclosestdatacentertotherenewableenergyproject.in__number_917__,thegreenhousegasprotocolreleasednewscope2guidancefortheaccountingofpurchasedelectricity",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "other",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "total",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "based",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "based",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "mbm",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "therebyrepresentingemissionreductionfromrenewableenergyppasandmbmemissionfactor.35.seenote33above.36.carbonintensitymetricarebasedongrossglobalcombinedscope1andmarket-basedscope2emission.37.in__number_982__,weupdatedourmegawatt",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "comparingthevolumeofrenewableelectricity(inmegawatt",
+        "type": "PERSON",
+        "confidence": 1.0
+      },
+      {
+        "text": "hours",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "cfe",
+        "type": "TICKER",
+        "confidence": 1.0
+      }
+    ]
+  },
+  {
+    "id": "doc_20260111_222702_8378",
+    "filename": "NASDAQ_GOOG_2022.pdf",
+    "path": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\5eme\\nlp\\Projet_semestriel_v2\\data\\documents\\NASDAQ_GOOG_2022.pdf",
+    "status": "completed",
+    "uploaded_at": "2026-01-11T22:27:02.306990",
+    "processed_at": "2026-01-11T22:27:10.767909",
+    "metadata": {},
+    "keywords": [
+      "cumulative",
+      "annual",
+      "includingteleworking",
+      "label",
+      "cable",
+      "connector",
+      "electroniccomponentandmodule",
+      "opticalcomponent",
+      "electrostaticdischargecomponent",
+      "electromagneticinterferencecomponent",
+      "film",
+      "coating",
+      "scope2",
+      "businesstravelandemployeecommuting",
+      "office",
+      "tcoe3",
+      "and3",
+      "inthehousingandotherrecycledaluminumcomponent",
+      "scope3",
+      "performancehighlight"
+    ],
+    "entities": [
+      {
+        "text": "wevecommittedtohelp1billionpeoplemakemoresustainablechoicebytheendof__number___number___number_5__number___number_6__number_861____3____5____throughourcoreproduct.weintroducedeco-friendlyroutingingooglemap",
+        "type": "PERSON",
+        "confidence": 1.0
+      },
+      {
+        "text": "weshowinformationfromauthoritativesourceliketheunitednation.benefitingpeopleandplacetobenefitthepeopleandplacewhereweoperate",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "capacityofapproximately__number___number_579__3__gw.topurchasecleanenergyviaon",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "15%",
+        "type": "PERCENTAGE",
+        "confidence": 1.0
+      },
+      {
+        "text": "waste",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "based",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "based",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "total",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "other",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "based",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "based",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "site",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "grid",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "42%",
+        "type": "PERCENTAGE",
+        "confidence": 1.0
+      },
+      {
+        "text": "44%",
+        "type": "PERCENTAGE",
+        "confidence": 1.0
+      },
+      {
+        "text": "googlecarbonoffsetcollaborationandduediligence.5.thisestimatedspendcommitmentisforcleanenergypurchasedforouroperation.itmayfluctuateovertimebasedonthenumberofcontractsignedandenergymarketprice.6.basedonourcumulativerenewableelectricitypurchasedinmegawatt-hours(mwh)from__number_879__to__number_889__.7.thefirstyeargooglesignedarenewableenergycontractwa__number_882__.8.weprocurehigh-qualitycarboncredittocompensateforthecarbonemissionfromallgoogle",
+        "type": "PERSON",
+        "confidence": 1.0
+      },
+      {
+        "text": "weveestimatedaveragesavingof__money_3__to__money_4__ayear.thatmeanthenestlearningthermostatcanpayforitselfinundertwoyear.individualsavingarenotguaranteed.11.nestandpixeldevicearedesignedwith__percentage_36____percentage_37__recycledcontentacrosstheirrespectiveplasticpartin__number_888__and__number_902__.thisdoenotincludeplasticinprintedcircuitboard",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "opticalcomponent",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "opticalcomponent",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "opticalcomponent",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "based",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "based",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "wri",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "wbcsd",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "foragivenmixtureandamountofghg",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "gwp",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "wherebyonanannualbasisweassignedrenewableelectricityprocuredagainstelectricityconsumed(inmegawatt-hours)intheclosestdatacentertotherenewableenergyproject.in__number_940__,thegreenhousegasprotocolreleasedupdatedscope2guidancefortheaccountingofpurchasedelectricity",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "ashowninthescheduleofselectenvironmentalindicatorattachedtothe__number_978__independentaccountantreviewreport.inthe__number_1003__independentaccountantreviewreport",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "based",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "mbm",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "comparingthevolumeofrenewableelectricity(inmegawatt",
+        "type": "PERSON",
+        "confidence": 1.0
+      },
+      {
+        "text": "hours",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "cfe",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "srht",
+        "type": "TICKER",
+        "confidence": 1.0
+      }
+    ]
+  },
+  {
+    "id": "doc_20260111_223443_8378",
+    "filename": "NASDAQ_GOOG_2022.pdf",
+    "path": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\5eme\\nlp\\Projet_semestriel_v2\\data\\documents\\NASDAQ_GOOG_2022.pdf",
+    "status": "completed",
+    "uploaded_at": "2026-01-11T22:34:43.533957",
+    "processed_at": "2026-01-11T22:34:51.380058",
+    "metadata": {},
+    "keywords": [
+      "cumulative",
+      "annual",
+      "includingteleworking",
+      "label",
+      "cable",
+      "connector",
+      "electroniccomponentandmodule",
+      "opticalcomponent",
+      "electrostaticdischargecomponent",
+      "electromagneticinterferencecomponent",
+      "film",
+      "coating",
+      "scope2",
+      "businesstravelandemployeecommuting",
+      "office",
+      "tcoe3",
+      "and3",
+      "inthehousingandotherrecycledaluminumcomponent",
+      "scope3",
+      "performancehighlight"
+    ],
+    "entities": [
+      {
+        "text": "wevecommittedtohelp1billionpeoplemakemoresustainablechoicebytheendof__number___number___number_5__number___number_6__number_861____3____5____throughourcoreproduct.weintroducedeco-friendlyroutingingooglemap",
+        "type": "PERSON",
+        "confidence": 1.0
+      },
+      {
+        "text": "weshowinformationfromauthoritativesourceliketheunitednation.benefitingpeopleandplacetobenefitthepeopleandplacewhereweoperate",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "capacityofapproximately__number___number_579__3__gw.topurchasecleanenergyviaon",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "15%",
+        "type": "PERCENTAGE",
+        "confidence": 1.0
+      },
+      {
+        "text": "waste",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "based",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "based",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "total",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "other",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "based",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "based",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "site",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "grid",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "42%",
+        "type": "PERCENTAGE",
+        "confidence": 1.0
+      },
+      {
+        "text": "44%",
+        "type": "PERCENTAGE",
+        "confidence": 1.0
+      },
+      {
+        "text": "googlecarbonoffsetcollaborationandduediligence.5.thisestimatedspendcommitmentisforcleanenergypurchasedforouroperation.itmayfluctuateovertimebasedonthenumberofcontractsignedandenergymarketprice.6.basedonourcumulativerenewableelectricitypurchasedinmegawatt-hours(mwh)from__number_879__to__number_889__.7.thefirstyeargooglesignedarenewableenergycontractwa__number_882__.8.weprocurehigh-qualitycarboncredittocompensateforthecarbonemissionfromallgoogle",
+        "type": "PERSON",
+        "confidence": 1.0
+      },
+      {
+        "text": "weveestimatedaveragesavingof__money_3__to__money_4__ayear.thatmeanthenestlearningthermostatcanpayforitselfinundertwoyear.individualsavingarenotguaranteed.11.nestandpixeldevicearedesignedwith__percentage_36____percentage_37__recycledcontentacrosstheirrespectiveplasticpartin__number_888__and__number_902__.thisdoenotincludeplasticinprintedcircuitboard",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "opticalcomponent",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "opticalcomponent",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "opticalcomponent",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "based",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "based",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "wri",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "wbcsd",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "foragivenmixtureandamountofghg",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "gwp",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "wherebyonanannualbasisweassignedrenewableelectricityprocuredagainstelectricityconsumed(inmegawatt-hours)intheclosestdatacentertotherenewableenergyproject.in__number_940__,thegreenhousegasprotocolreleasedupdatedscope2guidancefortheaccountingofpurchasedelectricity",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "ashowninthescheduleofselectenvironmentalindicatorattachedtothe__number_978__independentaccountantreviewreport.inthe__number_1003__independentaccountantreviewreport",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "based",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "mbm",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "comparingthevolumeofrenewableelectricity(inmegawatt",
+        "type": "PERSON",
+        "confidence": 1.0
+      },
+      {
+        "text": "hours",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "cfe",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "srht",
+        "type": "TICKER",
+        "confidence": 1.0
+      }
+    ]
+  },
+  {
+    "id": "doc_20260111_223512_5390",
+    "filename": "NASDAQ_AMZN_2024.pdf",
+    "path": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\5eme\\nlp\\Projet_semestriel_v2\\data\\documents\\NASDAQ_AMZN_2024.pdf",
+    "status": "completed",
+    "uploaded_at": "2026-01-11T22:35:12.615158",
+    "processed_at": "2026-01-11T22:36:07.874162",
+    "metadata": {},
+    "keywords": [
+      "loss",
+      "inmillion",
+      "cashequivalent",
+      "expense",
+      "income",
+      "usedin",
+      "yearendeddecember31",
+      "net",
+      "fulfillment",
+      "amongotherthing",
+      "storage",
+      "product",
+      "service",
+      "regulation",
+      "comparedtotheprioryear",
+      "netcashprovidedby",
+      "december31",
+      "database",
+      "advertising",
+      "investigation"
+    ],
+    "entities": [
+      {
+        "text": "yoy",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "continuedloweringprices(independentresearchfirm",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "includingourlatestcustomaisilicon(trainium2),anewsetoffrontierfoundationmodelinamazonnova",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "genai",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "ifany",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "wevefoundoneofthemostimportantkeystounlockthesedoorshasbeenasimplequestionwhywhydoesthiscustomerexperiencehavetobethiswaywhycantitbebetterwhataretheconstraintswhymustweacceptthemwhycantweinventaroundthatwhywillittakesolongtogettocustomerwhymydadhastoldmethatiwasthekindofkidwhokeptaskingwhy",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "homefurnishingwhynotpracticallyeverythingwhyshouldwebetheonlysellersoftheseitemsmillionsofthird",
+        "type": "ORDINAL",
+        "confidence": 1.0
+      },
+      {
+        "text": "aws",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "alot",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "regardlessofwhoseoriginalideaischosen.learnandbecuriousleadersareneverdonelearningandalwaysseektoimprovethemselves.theyarecuriousaboutnewpossibilitiesandacttoexplorethem.inthenearly__number_1__number_2979____yearsivebeenatamazon",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "forcingthediscussion(versussilentlythinkingamistakeisbeingmade)isnecessarytogettingtobetteranswersforcustomers.itoldyousohasnocurrencyatamazon.itsalsoimportanttofocusonthesecondpartofthisleadershipprincipledisagreeandcommit.whileconstructivedebateisusefulatsomepoint",
+        "type": "NORP",
+        "confidence": 1.0
+      },
+      {
+        "text": "teamsneedtomakeadecisionandtakeaction.fromthatpointon",
+        "type": "PERSON",
+        "confidence": 1.0
+      },
+      {
+        "text": "everybodyeventhosewhoadvocatedforadifferentsolutionthantheonechosenmustcommittomakingthatdecisionasuccess.thatmeanstheteamgoesallinnopocket",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "faq",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "evenonesthatseemprettygoodtoday",
+        "type": "DATE",
+        "confidence": 1.0
+      },
+      {
+        "text": "andviewthecompanysmissionastheirmission(wewantmissionary",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "notmercenaries).thatspartofwhatourefforttoincreasetheratioofindividualcontributorsversusmanagersisabout.wewantflatterorganizationswhereourownersdoingtheworkfeelliketheyownthetwo",
+        "type": "CARDINAL",
+        "confidence": 1.0
+      },
+      {
+        "text": "andwearecommittedtorootingoutbureaucracythattiesuptimeanddispiritsourteammates.fifth",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "andhaveadjustedtoreflectthatagain.ourbestleadersgetthemostdonewiththeleastnumberofresourcesrequiredtodothejob.theypridethemselvesonbeinglean.sixth",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "servedbyourinvestingaggressivelynow.whydochipsandaihavetobethisexpensiveforcustomersaidoesnothavetobeasexpensiveasitistoday",
+        "type": "DATE",
+        "confidence": 1.0
+      },
+      {
+        "text": "andexpectalexatoplayanevenmorevitalroleinthelivesofthesehundredsofmillionsofcustomersinthefuture.whycantwegetitemstocustomersevenfasterdoesitmattereveryyear",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "two",
+        "type": "CARDINAL",
+        "confidence": 1.0
+      },
+      {
+        "text": "ruraltownsthatdonthaveaccesstobroadbandconnectivity.theycantleveragetheinternettolearn",
+        "type": "PERSON",
+        "confidence": 1.0
+      },
+      {
+        "text": "especiallyintheu.s.",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": ",isquitefrustrating.itshardtogetfastappointmentswithprimarycarephysician",
+        "type": "NORP",
+        "confidence": 1.0
+      },
+      {
+        "text": "foramazon.com.today",
+        "type": "DATE",
+        "confidence": 1.0
+      },
+      {
+        "text": "bydoingso",
+        "type": "PERSON",
+        "confidence": 1.0
+      },
+      {
+        "text": "andstillis",
+        "type": "PERSON",
+        "confidence": 1.0
+      },
+      {
+        "text": "yahoo",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "altavista",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "andprodigy.infrastructureduring1997,weworkedhardtoexpandourbusinessinfrastructuretosupportthesegreatlyincreasedtraffic",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "inc.unitedstatesecurityandexchangecommissionwashington",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "d",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "d",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "inc.(exactnameofregistrantaspecifiedinitcharter)delaware__number_4__number_934____-__number___number_670____(stateorotherjurisdictionof(i.r.s.employerincorporationororganization)identificationno.)__number_4__number_1__number_3553______terryavenuenorthseattle",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "washington__number_442__-__number___number_2__number_3266______(__number_444__)__number_445__-__number_446__(addressandtelephonenumber",
+        "type": "DATE",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "s",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "parvalue$.01pershareamznnasdaqglobalselectmarketsecurityregisteredpursuanttosection__number___number_679____(g)oftheactnone____________________________________indicatebycheckmarkiftheregistrantisawell-knownseasonedissuer",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "d",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "d",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "$1,",
+        "type": "MONEY",
+        "confidence": 1.0
+      },
+      {
+        "text": "totheextentnotsetforthherein",
+        "type": "PERSON",
+        "confidence": 1.0
+      },
+      {
+        "text": "andprojectionaofthedateofthisfiling.actualresultandoutcomemaydiffermateriallyfromthoseexpressedinforward-lookingstatement.seeitem1aofpartiriskfactor.ausedherein",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "amazon.com",
+        "type": "ORG",
+        "confidence": 1.0
+      }
+    ]
+  },
+  {
+    "id": "doc_20260111_223823_7561",
+    "filename": "NASDAQ_MSFT_2024.pdf",
+    "path": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\5eme\\nlp\\Projet_semestriel_v2\\data\\documents\\NASDAQ_MSFT_2024.pdf",
+    "status": "completed",
+    "uploaded_at": "2026-01-11T22:38:26.676315",
+    "processed_at": "2026-01-11T22:39:35.816201",
+    "metadata": {},
+    "keywords": [
+      "inmillion",
+      "loss",
+      "expense",
+      "yearendedjune30",
+      "june30",
+      "service",
+      "net",
+      "total",
+      "respectively",
+      "endofperiod",
+      "beginningofperiod",
+      "balance",
+      "microsoftteam",
+      "market",
+      "marketingsolution",
+      "premiumsubscription",
+      "crm",
+      "security",
+      "ibm",
+      "employeebenefit"
+    ],
+    "entities": [
+      {
+        "text": "thisbeliefremainsattheheartofourmissiontoempowereverypersonandeveryorganizationontheplanettoachievemore.thisyear",
+        "type": "DATE",
+        "confidence": 1.0
+      },
+      {
+        "text": "wemovedfromtalkingaboutaitohelpingourcustomertranslateitintorealoutcomesoneperson",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "aitacceleratesitproductdevelopment.developeratitau",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "awellaazureiot.inkenya",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "fromamgenanddisney",
+        "type": "PERSON",
+        "confidence": 1.0
+      },
+      {
+        "text": "sfi",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "dnn",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "progressincomputewakeepingupwithmoorelawdoublingeverytwoyear.butwehavenowstartedtoseeprogressinaiperformancedoubleroughlyeverysixmonth.therearethreecapabilitycomingtogetherbecauseofthesescalinglaw.first",
+        "type": "ORDINAL",
+        "confidence": 1.0
+      },
+      {
+        "text": "wehaveanewnaturaluserinterfacethatismultimodal.itsupportspeech",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "apps",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "includingthecopilotpcweintroducedthisyear.ouropportunitytheinnovationwehavedrivenoverthepastyearmatteronlyifwetranslateitintoenduringvalueforourcustomer.thatswhy",
+        "type": "PERSON",
+        "confidence": 1.0
+      },
+      {
+        "text": "wearefocusedonhelpingpeopleandorganizationrealizethebenefitofai.infrastructurethisyear",
+        "type": "PERSON",
+        "confidence": 1.0
+      },
+      {
+        "text": "thankstoourstrategicpartnershipwithopenai.withphi-3,whichweannouncedinapril",
+        "type": "DATE",
+        "confidence": 1.0
+      },
+      {
+        "text": "wehaveover__number___number_1748____,__number_387__azureaicustomer",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "nowhaover__number_3__number_840____,__number_390__paidcustomerwhocangofromdata",
+        "type": "PERSON",
+        "confidence": 1.0
+      },
+      {
+        "text": "wenowhave__number_397__millionmonthlyactiveuserofpowerplatform",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "justthisweek",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "weannouncednewcapabilitythatwillmakeitpossibleforcustomertobuildautonomousagentusingcopilotstudio.microsoftteamremainsessentialtohowhundredofmillionofpeoplemeet",
+        "type": "LOC",
+        "confidence": 1.0
+      },
+      {
+        "text": "includinghealthcare.withdaxcopilot",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "intel",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "alongwithouroempartner.professionalsocialnetworklinkedincontinuestoseeacceleratedmembergrowthandrecordengagement.wesurpassed1billionmemberforthefirsttimethisyear",
+        "type": "DATE",
+        "confidence": 1.0
+      },
+      {
+        "text": "andfluentanswer.itnowadaptstoyouwithawarmtoneandadistinctstyle",
+        "type": "PERSON",
+        "confidence": 1.0
+      },
+      {
+        "text": "ensuringthateveryperson",
+        "type": "PERSON",
+        "confidence": 1.0
+      },
+      {
+        "text": "andincreasetheirimpactatheytakeontheworldgreatestchallenge.togetherwithourpartner",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "andtheglobalsouth",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "notgiven.andweremaincommittedtoearningtrusteveryday",
+        "type": "DATE",
+        "confidence": 1.0
+      },
+      {
+        "text": "whichdrawlessonfromothergloballygovernedtechnologylikecivilaviationandnuclearpower.throughouracceleratingfoundationmodelresearchprogram",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "andproposedconcreteactionthatupolicymakerscantaketoprotectthepublicthroughregulatoryandpolicymeasure.howcanweprotectfundamentalrightwearecommittedtoprotectingfundamentalrightsextendingthebenefitoftechnologywhilemitigatingitpotentialharm.foru",
+        "type": "PERSON",
+        "confidence": 1.0
+      },
+      {
+        "text": "allwhileworkingtoimprovetheefficiencyofthesetechnology.werealsoinvestingininnovationthroughmicrosoftsclimateinnovationfundandouraiforgoodlab",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "weneedaculturethatallowsutogrowthatcapabilitylongbeforeitisconventionalwisdom.foru",
+        "type": "PERSON",
+        "confidence": 1.0
+      },
+      {
+        "text": "$3,",
+        "type": "MONEY",
+        "confidence": 1.0
+      },
+      {
+        "text": "$4,",
+        "type": "MONEY",
+        "confidence": 1.0
+      },
+      {
+        "text": "$6,",
+        "type": "MONEY",
+        "confidence": 1.0
+      },
+      {
+        "text": "$5,",
+        "type": "MONEY",
+        "confidence": 1.0
+      },
+      {
+        "text": "$5,",
+        "type": "MONEY",
+        "confidence": 1.0
+      },
+      {
+        "text": "$20,",
+        "type": "MONEY",
+        "confidence": 1.0
+      },
+      {
+        "text": "includingthefollowingsectionbusinessandmanagementdiscussionandanalysisoffinancialconditionandresultofoperation.theseforward-lookingstatementgenerallyareidentifiedbythewordbelieve",
+        "type": "PERSON",
+        "confidence": 1.0
+      },
+      {
+        "text": "ai",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "thatdeliverinnovativesolutionthatmeettheevolvingneedofourcustomer.frominfrastructureanddata",
+        "type": "CARDINAL",
+        "confidence": 1.0
+      },
+      {
+        "text": "apps",
+        "type": "PERSON",
+        "confidence": 1.0
+      },
+      {
+        "text": "thatallowsthosegametoreachmoreplayeracrossmoredevice.activisionblizzard",
+        "type": "PERSON",
+        "confidence": 1.0
+      },
+      {
+        "text": "joinedmicrosoftinoctober__number___number_2584____.ourfutureopportunitywearefocusedonhelpingcustomerusethebreadthanddepthofthemicrosoftcloudtogetthemostvalueoutoftheirdigitalspendwhileleadingtheaiplatformwaveacrossoursolutionarea.wecontinuetodevelopcomplete",
+        "type": "PERSON",
+        "confidence": 1.0
+      },
+      {
+        "text": "andinteractwithoneanother.buildingandrunningcloud-basedserviceinwaythatutilizeubiquitouscomputingtounleashnewexperienceandopportunityforbusinessandindividual.applyingaiandambientintelligencetodriveinsight",
+        "type": "PRODUCT",
+        "confidence": 1.0
+      },
+      {
+        "text": "microsoft__number___number_2976____consumer",
+        "type": "PERSON",
+        "confidence": 1.0
+      },
+      {
+        "text": "teal",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "withgreaterflexibilityandaccessiblelearningpathtodeveloptherightskillneededforthemostin-demandjob.thisinitiativebringstogetherclass",
+        "type": "PERSON",
+        "confidence": 1.0
+      },
+      {
+        "text": "github",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "andisbuiltondatainsightdrawnfromlinkedinseconomicgraph.ourgoalwatotrainandcertify__number___number_2615____millionlearnerby__number___number_2069____.aofmay__number___number___number_3702__7____,wehavesurpassedthatgoal",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "andotherofficeservice.linkedin",
+        "type": "PERSON",
+        "confidence": 1.0
+      },
+      {
+        "text": "andpowerautomateandon-premiseserpandcrmapplication.officecommercialofficecommercialisdesignedtoincreasepersonal",
+        "type": "PERSON",
+        "confidence": 1.0
+      }
+    ]
+  },
+  {
+    "id": "doc_20260111_231344_630",
+    "filename": "IR_FinancialReport_77th_3Q_en.pdf",
+    "path": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\5eme\\nlp\\Projet_semestriel_v2\\data\\documents\\IR_FinancialReport_77th_3Q_en.pdf",
+    "status": "completed",
+    "uploaded_at": "2026-01-11T23:13:44.444179",
+    "processed_at": "2026-01-11T23:13:57.763885",
+    "metadata": {},
+    "keywords": [
+      "loss",
+      "millionofyen",
+      "yen",
+      "note",
+      "usedin",
+      "operatingincome",
+      "expenseoperatingincome",
+      "incomebeforeincometax",
+      "plantandequipment",
+      "generaland",
+      "disposaloftreasuryshare",
+      "netcashprovidedby",
+      "millionof",
+      "netincomenotattributabletoowneroftheparent",
+      "operatingincome510",
+      "incomebeforeincometax9",
+      "netincome7",
+      "grossprofit23",
+      "administrativeexpenseotherincome1082",
+      "operatingincome53"
+    ],
+    "entities": [
+      {
+        "text": "loss",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "loss",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "loss",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "loss",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "theyshouldbereadincombinationwiththeconsolidatedfinancialstatementforthefiscalyearendedmarch__number_859__,__number_638__.thecondensedconsolidatedfinancialstatementwereapprovedonfebruary13,__number_640__byyoshiakiyoshida",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "fvtpl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "s",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "y",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "y",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "y",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "y",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "y",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "y",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "y",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "y",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "y",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "y",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "supportandothers.thesereportableoperatingsegmentaredeterminedbasedonthenatureoftheproductandthemarket.segmentinformationispreparedonthesamebasisthatmanagementreviewfinancialinformationforoperationaldecisionmakingpurpose.thesemiconductorandcomponenttestsystemsegmentprovidescustomerwithtestsystemproductforthesemiconductorindustryandtheelectronicpartindustry.productlineprovidedinthesemiconductorandcomponenttestsystemsegmentincludetestsystemforsocsemiconductordeviceandtestsystemformemorysemiconductordevice.themechatronicssystemsegmentprovidesproductlinesuchatesthandler",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "loss",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "loss",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "loss",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "loss",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "loss",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "loss",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "loss",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "loss",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "loss",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "loss",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "loss",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "note",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "loss",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "y",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "y",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "y",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "y",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "y",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "yen",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "yen",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "yen",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "yen",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "note",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "y",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "theperformanceobligationissatisfiedandrevenueisrecognized.additionally",
+        "type": "DATE",
+        "confidence": 1.0
+      },
+      {
+        "text": "note",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "yen",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "yen",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "yen",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "yen",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "note",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "bond",
+        "type": "TICKER",
+        "confidence": 1.0
+      }
+    ]
+  },
+  {
+    "id": "doc_20260111_232144_5786",
+    "filename": "NASDAQ_GOOG_2021.pdf",
+    "path": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\5eme\\nlp\\Projet_semestriel_v2\\data\\documents\\NASDAQ_GOOG_2021.pdf",
+    "status": "completed",
+    "uploaded_at": "2026-01-11T23:21:44.226485",
+    "processed_at": "2026-01-11T23:21:52.046885",
+    "metadata": {},
+    "keywords": [
+      "cumulative",
+      "includingteleworking",
+      "annual",
+      "scope2",
+      "businesstravelandemployeecommuting",
+      "wepurchasedenoughrenewableenergy",
+      "office",
+      "tcoe2",
+      "total",
+      "and3total",
+      "and3",
+      "label",
+      "cable",
+      "connector",
+      "electroniccomponentandmodule",
+      "opticalcomponent",
+      "electrostaticdischargecomponent",
+      "electromagneticinterferencecomponent",
+      "film",
+      "coating"
+    ],
+    "entities": [
+      {
+        "text": "basedon__money_1__billioninrenewableenergyrepresentingacommitmentofenergypurchaseforthefourthrenewableelectricitypurchasedprojectwithanexpectedcombinedapproximately__money_2__billionconsecutiveyear.inmegawatt-hours(mwh).fromcapacityofapproximately__number_1__number___number_958__9____gw.through__number___number_569__3__.__number_1__number___number_921__9____to__number_1__number_1__number_683______,wepurchasedathesetargetedinvestmenttotalofmorethan__number___number_647__6__millionmwhgobeyondourpurchaseofofrenewableenergythroughppas",
+        "type": "PERSON",
+        "confidence": 1.0
+      },
+      {
+        "text": "0%",
+        "type": "PERCENTAGE",
+        "confidence": 1.0
+      },
+      {
+        "text": "31%",
+        "type": "PERCENTAGE",
+        "confidence": 1.0
+      },
+      {
+        "text": "california",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "andmeaningthatitwadesigneddublin",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "morethan1billioncontainednearly__number_202__,__number_203__ev__number_204__cityworldwideweresunroofcontaineddataformorekilometer(__number_205__millionmile)charginglocationglobally.usingtheenvironmentalinsightthan__number_7__number_964____millionrooftopacrossworthoftransitresultperday",
+        "type": "DATE",
+        "confidence": 1.0
+      },
+      {
+        "text": "reduceglobalemission.andtrafficinformation.tool(continued)program__number___number_377____10petabytemillionoffreelyavailableimpactchallengegeospatialdataonclimateearthenginehaenabledtenin__number___number_842__6__,google.orglaunchedofthousandofactiveusertheimpactchallengeonclimate",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "waste",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "based",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "based",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "total",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "other",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "based",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "based",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "site",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "grid",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "40%",
+        "type": "PERCENTAGE",
+        "confidence": 1.0
+      },
+      {
+        "text": "43%",
+        "type": "PERCENTAGE",
+        "confidence": 1.0
+      },
+      {
+        "text": "opticalcomponent",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "andadhesive.7.backhousingonly.recycledaluminumisapproximately__percentage_50__ofenclosurebasedonweight.8.energysavingfromthenestlearningthermostatenergybillanalysisresult",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "opticalcomponent",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "based",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "based",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "wri",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "wbcsd",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "foragivenmixtureandamountofghg",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "gwp",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "wherebyonanannualbasisweassignedrenewableelectricityprocuredagainstelectricityconsumed(inmegawatt-hours)intheclosestdatacentertotherenewableenergyproject.in__number_917__,thegreenhousegasprotocolreleasednewscope2guidancefortheaccountingofpurchasedelectricity",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "other",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "total",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "based",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "based",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "mbm",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "therebyrepresentingemissionreductionfromrenewableenergyppasandmbmemissionfactor.35.seenote33above.36.carbonintensitymetricarebasedongrossglobalcombinedscope1andmarket-basedscope2emission.37.in__number_982__,weupdatedourmegawatt",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "comparingthevolumeofrenewableelectricity(inmegawatt",
+        "type": "PERSON",
+        "confidence": 1.0
+      },
+      {
+        "text": "hours",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "cfe",
+        "type": "TICKER",
+        "confidence": 1.0
+      }
+    ]
+  },
+  {
+    "id": "doc_20260111_232538_5786",
+    "filename": "NASDAQ_GOOG_2021.pdf",
+    "path": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\5eme\\nlp\\Projet_semestriel_v2\\data\\documents\\NASDAQ_GOOG_2021.pdf",
+    "status": "completed",
+    "uploaded_at": "2026-01-11T23:25:39.012320",
+    "processed_at": "2026-01-11T23:25:47.849114",
+    "metadata": {},
+    "keywords": [
+      "cumulative",
+      "includingteleworking",
+      "annual",
+      "scope2",
+      "businesstravelandemployeecommuting",
+      "wepurchasedenoughrenewableenergy",
+      "office",
+      "tcoe2",
+      "total",
+      "and3total",
+      "and3",
+      "label",
+      "cable",
+      "connector",
+      "electroniccomponentandmodule",
+      "opticalcomponent",
+      "electrostaticdischargecomponent",
+      "electromagneticinterferencecomponent",
+      "film",
+      "coating"
+    ],
+    "entities": [
+      {
+        "text": "basedon__money_1__billioninrenewableenergyrepresentingacommitmentofenergypurchaseforthefourthrenewableelectricitypurchasedprojectwithanexpectedcombinedapproximately__money_2__billionconsecutiveyear.inmegawatt-hours(mwh).fromcapacityofapproximately__number_1__number___number_958__9____gw.through__number___number_569__3__.__number_1__number___number_921__9____to__number_1__number_1__number_683______,wepurchasedathesetargetedinvestmenttotalofmorethan__number___number_647__6__millionmwhgobeyondourpurchaseofofrenewableenergythroughppas",
+        "type": "PERSON",
+        "confidence": 1.0
+      },
+      {
+        "text": "0%",
+        "type": "PERCENTAGE",
+        "confidence": 1.0
+      },
+      {
+        "text": "31%",
+        "type": "PERCENTAGE",
+        "confidence": 1.0
+      },
+      {
+        "text": "california",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "andmeaningthatitwadesigneddublin",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "morethan1billioncontainednearly__number_202__,__number_203__ev__number_204__cityworldwideweresunroofcontaineddataformorekilometer(__number_205__millionmile)charginglocationglobally.usingtheenvironmentalinsightthan__number_7__number_964____millionrooftopacrossworthoftransitresultperday",
+        "type": "DATE",
+        "confidence": 1.0
+      },
+      {
+        "text": "reduceglobalemission.andtrafficinformation.tool(continued)program__number___number_377____10petabytemillionoffreelyavailableimpactchallengegeospatialdataonclimateearthenginehaenabledtenin__number___number_842__6__,google.orglaunchedofthousandofactiveusertheimpactchallengeonclimate",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "waste",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "based",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "based",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "total",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "other",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "based",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "based",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "site",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "grid",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "40%",
+        "type": "PERCENTAGE",
+        "confidence": 1.0
+      },
+      {
+        "text": "43%",
+        "type": "PERCENTAGE",
+        "confidence": 1.0
+      },
+      {
+        "text": "opticalcomponent",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "andadhesive.7.backhousingonly.recycledaluminumisapproximately__percentage_50__ofenclosurebasedonweight.8.energysavingfromthenestlearningthermostatenergybillanalysisresult",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "opticalcomponent",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "based",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "based",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "wri",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "wbcsd",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "foragivenmixtureandamountofghg",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "gwp",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "wherebyonanannualbasisweassignedrenewableelectricityprocuredagainstelectricityconsumed(inmegawatt-hours)intheclosestdatacentertotherenewableenergyproject.in__number_917__,thegreenhousegasprotocolreleasednewscope2guidancefortheaccountingofpurchasedelectricity",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "other",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "total",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "based",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "based",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "mbm",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "therebyrepresentingemissionreductionfromrenewableenergyppasandmbmemissionfactor.35.seenote33above.36.carbonintensitymetricarebasedongrossglobalcombinedscope1andmarket-basedscope2emission.37.in__number_982__,weupdatedourmegawatt",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "comparingthevolumeofrenewableelectricity(inmegawatt",
+        "type": "PERSON",
+        "confidence": 1.0
+      },
+      {
+        "text": "hours",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "cfe",
+        "type": "TICKER",
+        "confidence": 1.0
+      }
+    ]
+  },
+  {
+    "id": "doc_20260111_232549_2604",
+    "filename": "NASDAQ_AMZN_2024.pdf",
+    "path": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\5eme\\nlp\\Projet_semestriel_v2\\data\\documents\\NASDAQ_AMZN_2024.pdf",
+    "status": "completed",
+    "uploaded_at": "2026-01-11T23:25:49.525809",
+    "processed_at": "2026-01-11T23:26:50.324862",
+    "metadata": {},
+    "keywords": [
+      "loss",
+      "inmillion",
+      "cashequivalent",
+      "expense",
+      "income",
+      "usedin",
+      "yearendeddecember31",
+      "net",
+      "fulfillment",
+      "amongotherthing",
+      "storage",
+      "product",
+      "service",
+      "regulation",
+      "comparedtotheprioryear",
+      "netcashprovidedby",
+      "december31",
+      "database",
+      "advertising",
+      "investigation"
+    ],
+    "entities": [
+      {
+        "text": "yoy",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "continuedloweringprices(independentresearchfirm",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "includingourlatestcustomaisilicon(trainium2),anewsetoffrontierfoundationmodelinamazonnova",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "genai",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "ifany",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "wevefoundoneofthemostimportantkeystounlockthesedoorshasbeenasimplequestionwhywhydoesthiscustomerexperiencehavetobethiswaywhycantitbebetterwhataretheconstraintswhymustweacceptthemwhycantweinventaroundthatwhywillittakesolongtogettocustomerwhymydadhastoldmethatiwasthekindofkidwhokeptaskingwhy",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "homefurnishingwhynotpracticallyeverythingwhyshouldwebetheonlysellersoftheseitemsmillionsofthird",
+        "type": "ORDINAL",
+        "confidence": 1.0
+      },
+      {
+        "text": "aws",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "alot",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "regardlessofwhoseoriginalideaischosen.learnandbecuriousleadersareneverdonelearningandalwaysseektoimprovethemselves.theyarecuriousaboutnewpossibilitiesandacttoexplorethem.inthenearly__number_1__number_2979____yearsivebeenatamazon",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "forcingthediscussion(versussilentlythinkingamistakeisbeingmade)isnecessarytogettingtobetteranswersforcustomers.itoldyousohasnocurrencyatamazon.itsalsoimportanttofocusonthesecondpartofthisleadershipprincipledisagreeandcommit.whileconstructivedebateisusefulatsomepoint",
+        "type": "NORP",
+        "confidence": 1.0
+      },
+      {
+        "text": "teamsneedtomakeadecisionandtakeaction.fromthatpointon",
+        "type": "PERSON",
+        "confidence": 1.0
+      },
+      {
+        "text": "everybodyeventhosewhoadvocatedforadifferentsolutionthantheonechosenmustcommittomakingthatdecisionasuccess.thatmeanstheteamgoesallinnopocket",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "faq",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "evenonesthatseemprettygoodtoday",
+        "type": "DATE",
+        "confidence": 1.0
+      },
+      {
+        "text": "andviewthecompanysmissionastheirmission(wewantmissionary",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "notmercenaries).thatspartofwhatourefforttoincreasetheratioofindividualcontributorsversusmanagersisabout.wewantflatterorganizationswhereourownersdoingtheworkfeelliketheyownthetwo",
+        "type": "CARDINAL",
+        "confidence": 1.0
+      },
+      {
+        "text": "andwearecommittedtorootingoutbureaucracythattiesuptimeanddispiritsourteammates.fifth",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "andhaveadjustedtoreflectthatagain.ourbestleadersgetthemostdonewiththeleastnumberofresourcesrequiredtodothejob.theypridethemselvesonbeinglean.sixth",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "servedbyourinvestingaggressivelynow.whydochipsandaihavetobethisexpensiveforcustomersaidoesnothavetobeasexpensiveasitistoday",
+        "type": "DATE",
+        "confidence": 1.0
+      },
+      {
+        "text": "andexpectalexatoplayanevenmorevitalroleinthelivesofthesehundredsofmillionsofcustomersinthefuture.whycantwegetitemstocustomersevenfasterdoesitmattereveryyear",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "two",
+        "type": "CARDINAL",
+        "confidence": 1.0
+      },
+      {
+        "text": "ruraltownsthatdonthaveaccesstobroadbandconnectivity.theycantleveragetheinternettolearn",
+        "type": "PERSON",
+        "confidence": 1.0
+      },
+      {
+        "text": "especiallyintheu.s.",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": ",isquitefrustrating.itshardtogetfastappointmentswithprimarycarephysician",
+        "type": "NORP",
+        "confidence": 1.0
+      },
+      {
+        "text": "foramazon.com.today",
+        "type": "DATE",
+        "confidence": 1.0
+      },
+      {
+        "text": "bydoingso",
+        "type": "PERSON",
+        "confidence": 1.0
+      },
+      {
+        "text": "andstillis",
+        "type": "PERSON",
+        "confidence": 1.0
+      },
+      {
+        "text": "yahoo",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "altavista",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "andprodigy.infrastructureduring1997,weworkedhardtoexpandourbusinessinfrastructuretosupportthesegreatlyincreasedtraffic",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "inc.unitedstatesecurityandexchangecommissionwashington",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "d",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "d",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "inc.(exactnameofregistrantaspecifiedinitcharter)delaware__number_4__number_934____-__number___number_670____(stateorotherjurisdictionof(i.r.s.employerincorporationororganization)identificationno.)__number_4__number_1__number_3553______terryavenuenorthseattle",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "washington__number_442__-__number___number_2__number_3266______(__number_444__)__number_445__-__number_446__(addressandtelephonenumber",
+        "type": "DATE",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "s",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "parvalue$.01pershareamznnasdaqglobalselectmarketsecurityregisteredpursuanttosection__number___number_679____(g)oftheactnone____________________________________indicatebycheckmarkiftheregistrantisawell-knownseasonedissuer",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "d",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "d",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "$1,",
+        "type": "MONEY",
+        "confidence": 1.0
+      },
+      {
+        "text": "totheextentnotsetforthherein",
+        "type": "PERSON",
+        "confidence": 1.0
+      },
+      {
+        "text": "andprojectionaofthedateofthisfiling.actualresultandoutcomemaydiffermateriallyfromthoseexpressedinforward-lookingstatement.seeitem1aofpartiriskfactor.ausedherein",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "amazon.com",
+        "type": "ORG",
+        "confidence": 1.0
+      }
+    ]
+  },
+  {
+    "id": "doc_20260111_234129_8345",
+    "filename": "Sample-Accounting-Income-Statement-PDF-File.pdf",
+    "path": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\5eme\\nlp\\Projet_semestriel_v2\\data\\documents\\Sample-Accounting-Income-Statement-PDF-File.pdf",
+    "status": "completed",
+    "uploaded_at": "2026-01-11T23:41:29.476948",
+    "processed_at": "2026-01-11T23:41:32.262200",
+    "metadata": {},
+    "keywords": [
+      "aofseptember30th",
+      "reconciledbalanceonseptember30th",
+      "abc",
+      "expense",
+      "equipment",
+      "inventoryequipment",
+      "archeryequip",
+      "liability",
+      "sign",
+      "productorservicereceivedbutnotyetpaid",
+      "installmentpaymentonequipment",
+      "product",
+      "andservicearenormallypaidatthetimeofpurchaseordelivery",
+      "regardlessofvalue",
+      "includethedateacquiredorpurchased",
+      "thevalue",
+      "purchasepriceoracquiredvalue",
+      "itemdescription",
+      "includetheserialnumber",
+      "ifapplicable"
+    ],
+    "entities": [
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "abc",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "abc",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "income",
+        "type": "METRIC",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "abc",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "$1,",
+        "type": "MONEY",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "$1,",
+        "type": "MONEY",
+        "confidence": 1.0
+      }
+    ]
+  },
+  {
+    "id": "doc_20260112_145001_2506",
+    "filename": "IR_FinancialReport_77th_3Q_en.pdf",
+    "path": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\5eme\\nlp\\Projet_semestriel_v2\\data\\documents\\IR_FinancialReport_77th_3Q_en.pdf",
+    "status": "completed",
+    "uploaded_at": "2026-01-12T14:50:01.312513",
+    "processed_at": "2026-01-12T14:50:32.467634",
+    "metadata": {},
+    "keywords": [
+      "loss",
+      "millionofyen",
+      "yen",
+      "note",
+      "usedin",
+      "operatingincome",
+      "expenseoperatingincome",
+      "incomebeforeincometax",
+      "plantandequipment",
+      "generaland",
+      "disposaloftreasuryshare",
+      "netcashprovidedby",
+      "millionof",
+      "netincomenotattributabletoowneroftheparent",
+      "operatingincome510",
+      "incomebeforeincometax9",
+      "netincome7",
+      "grossprofit23",
+      "administrativeexpenseotherincome1082",
+      "operatingincome53"
+    ],
+    "entities": [
+      {
+        "text": "loss",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "loss",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "loss",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "loss",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "theyshouldbereadincombinationwiththeconsolidatedfinancialstatementforthefiscalyearendedmarch__number_859__,__number_638__.thecondensedconsolidatedfinancialstatementwereapprovedonfebruary13,__number_640__byyoshiakiyoshida",
+        "type": "GPE",
+        "confidence": 1.0
+      },
+      {
+        "text": "fvtpl",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "s",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "y",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "y",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "y",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "y",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "y",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "y",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "y",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "y",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "y",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "y",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "supportandothers.thesereportableoperatingsegmentaredeterminedbasedonthenatureoftheproductandthemarket.segmentinformationispreparedonthesamebasisthatmanagementreviewfinancialinformationforoperationaldecisionmakingpurpose.thesemiconductorandcomponenttestsystemsegmentprovidescustomerwithtestsystemproductforthesemiconductorindustryandtheelectronicpartindustry.productlineprovidedinthesemiconductorandcomponenttestsystemsegmentincludetestsystemforsocsemiconductordeviceandtestsystemformemorysemiconductordevice.themechatronicssystemsegmentprovidesproductlinesuchatesthandler",
+        "type": "ORG",
+        "confidence": 1.0
+      },
+      {
+        "text": "loss",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "loss",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "loss",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "loss",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "loss",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "loss",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "loss",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "loss",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "loss",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "loss",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "loss",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "note",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "loss",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "y",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "y",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "y",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "y",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "y",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "yen",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "yen",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "yen",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "yen",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "note",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "y",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "theperformanceobligationissatisfiedandrevenueisrecognized.additionally",
+        "type": "DATE",
+        "confidence": 1.0
+      },
+      {
+        "text": "note",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "yen",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "yen",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "yen",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "yen",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "note",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "bond",
+        "type": "TICKER",
+        "confidence": 1.0
+      }
+    ]
+  },
+  {
+    "id": "doc_20260112_145111_4776",
+    "filename": "Sample-Accounting-Income-Statement-PDF-File.pdf",
+    "path": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\5eme\\nlp\\Projet_semestriel_v2\\data\\documents\\Sample-Accounting-Income-Statement-PDF-File.pdf",
+    "status": "completed",
+    "uploaded_at": "2026-01-12T14:51:11.150061",
+    "processed_at": "2026-01-12T14:51:15.089743",
+    "metadata": {},
+    "keywords": [
+      "aofseptember30th",
+      "reconciledbalanceonseptember30th",
+      "abc",
+      "expense",
+      "equipment",
+      "inventoryequipment",
+      "archeryequip",
+      "liability",
+      "sign",
+      "productorservicereceivedbutnotyetpaid",
+      "installmentpaymentonequipment",
+      "product",
+      "andservicearenormallypaidatthetimeofpurchaseordelivery",
+      "regardlessofvalue",
+      "includethedateacquiredorpurchased",
+      "thevalue",
+      "purchasepriceoracquiredvalue",
+      "itemdescription",
+      "includetheserialnumber",
+      "ifapplicable"
+    ],
+    "entities": [
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "abc",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "abc",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "income",
+        "type": "METRIC",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "abc",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "$1,",
+        "type": "MONEY",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "b",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "c",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "a",
+        "type": "TICKER",
+        "confidence": 1.0
+      },
+      {
+        "text": "$1,",
+        "type": "MONEY",
+        "confidence": 1.0
+      }
+    ]
   }
 ]

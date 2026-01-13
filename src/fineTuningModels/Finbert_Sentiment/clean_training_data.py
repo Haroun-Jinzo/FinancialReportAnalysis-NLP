@@ -1,32 +1,9 @@
-"""
-Clean Training Data - Fix Missing/Invalid Rows
-
-This script:
-1. Identifies rows with missing text or labels
-2. Removes invalid rows
-3. Validates label values
-4. Saves cleaned data
-5. Shows statistics
-"""
-
 import pandas as pd
 import sys
 from pathlib import Path
 
 
 def clean_csv_data(input_file, output_file=None, text_column='text', label_column='label'):
-    """
-    Clean CSV data for training
-    
-    Args:
-        input_file: Path to input CSV
-        output_file: Path to save cleaned CSV (optional)
-        text_column: Name of text column
-        label_column: Name of label column
-    
-    Returns:
-        Cleaned DataFrame
-    """
     print("\n" + "="*70)
     print("CLEANING TRAINING DATA")
     print("="*70)

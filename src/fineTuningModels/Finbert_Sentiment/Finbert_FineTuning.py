@@ -305,8 +305,8 @@ class FinbertFineTuner:
 
         return config
     
-    def evaluate_on_test_set(self, data_splits: Dict) -> Dict:
-        logger.info("Evaluating on test set...")
+    def evaluate_on_val_set(self, data_splits: Dict) -> Dict:
+        logger.info("Evaluating on val set...")
 
         test_dataset = FinancialSentimentDataset(
             data_splits['test']['texts'],
@@ -460,9 +460,9 @@ def main():
         learning_rate=2e-5
     )
     
-    # Step 3: Evaluate on test set
-    print("\n📈 Step 3: Evaluating on test set...")
-    test_results = finetuner.evaluate_on_test_set(data_splits)
+    # Step 3: Evaluate on val set
+    print("\n📈 Step 3: Evaluating on val set...")
+    test_results = finetuner.evaluate_on_val_set(data_splits)
     
     # Step 4: Test on examples
     print("\n🧪 Step 4: Testing on example sentences...")
