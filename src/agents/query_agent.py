@@ -15,38 +15,15 @@ logger = logging.getLogger(__name__)
 
 
 class QueryAgent:
-    """
-    Query Agent - Simplified
-    
-    This agent answers questions about your documents in plain English.
-    You don't need to know SQL or complex queries - just ask!
-    
-    It can handle:
+    """   
+    examples of question to ask:
     - Simple questions: "What was the revenue?"
     - Comparisons: "Compare Apple and Microsoft"
     - Trends: "Show me the revenue trend"
     - Searches: "Find documents about earnings"
-    
-    Example:
-        agent = QueryAgent(document_agent, analysis_agent)
-        
-        # Just ask!
-        result = agent.query("What was the revenue in Q3?")
-        print(result['answer'])
-        # Output: "Revenue was $90 billion in Q3 2024"
     """
     
     def __init__(self, document_agent=None, analysis_agent=None):
-        """
-        Initialize the Query Agent
-        
-        Args:
-            document_agent: Reference to document agent (to access documents)
-            analysis_agent: Reference to analysis agent (to run analysis)
-        
-        Note: Without these agents, the query agent can't access documents
-              or run analysis, so it won't be very useful!
-        """
         logger.info("💬 Starting Query Agent...")
         
         # Initialize Q&A and metric extraction
